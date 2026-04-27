@@ -1,5 +1,5 @@
 ---
 layout: redirect
 permalink: /api/source-code/source/
-redirect_to: https://github.com/sirenhytale/Mermaids/blob/main/src/main/java/plugin/siren/api/MermaidsAPI.java
+redirect_to: https://github.com/sirenhytale/Mermaids/blob/main/src/main/java/plugin/siren/API/MermaidsAPI.java
 ---
