@@ -83,11 +83,11 @@ nav_order: 2
 - [ ] HurtDrown
 - [ ] DeathDrown
 - [ ] HurtBurn
-- [ ] Sleep
-- [ ] Sleep2
-- [ ] Sit
-- [ ] Sit2
-- [ ] SitGround
+- [ ] Sleep (Animations made but they don't load)
+- [ ] Sleep2 (Animations made but they don't load)
+- [ ] Sit (Animations made but they don't load)
+- [ ] Sit2 (Animations made but they don't load)
+- [ ] SitGround (Animations made but they don't load)
 - [ ] Slide
 - [ ] IdlePassive
 - [ ] FlyIdlePassive

@@ -9,13 +9,15 @@ nav_order: 1
 
 ### First add Mermaids to your Project:
 
+Make sure you update the version number to the version you downloaded.
+
 Maven `pom.xml`:
 ```
 <dependencies>
     <dependency>
         <groupId>plugin.siren</groupId>
         <artifactId>Mermaids</artifactId>
-        <version>1.4.0</version>
+        <version>2.5.1</version>
         <scope>provided</scope>
         <optional>true</optional>
     </dependency>
@@ -25,7 +27,7 @@ Maven `pom.xml`:
 Gradle `build.gradle`: (untested)
 ```
 dependencies {
-    compileOnly 'plugin.siren:Mermaids:1.4.0'
+    compileOnly 'plugin.siren:Mermaids:2.5.1'
 }
 ```
 <br/>
