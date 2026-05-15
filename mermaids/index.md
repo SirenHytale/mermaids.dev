@@ -12,7 +12,7 @@ Ever wanted to be a Mermaid? Now you can with Mermaids, this mod allows the play
 
 #### Features:
 - Works in Multiplayer.
-- Compatibility support with 9+ mod.
+- Compatibility support with numerous mods.
 - Grow a Mermaid tail and keep your cosmetics.
 - Breathe underwater with increased swim speed.
 - Custom Mermaid NPCs that spawn in the ocean.

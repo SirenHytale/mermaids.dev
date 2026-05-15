@@ -11,8 +11,6 @@ nav_order: 6
   - Being a Mermaid fills the thirst bar to max.
 - [Aqua Thirst & Hunger] By: [Jume]
   - Being a Mermaid fills the thirst bar to max.
-- [[xnrdev] DivingTale](https://www.curseforge.com/hytale/mods/diving-equipment) By: [xnrdev]
-  - All 6 harpoons will give increased movement speeds underwater.
 - [Placeholder API]By: [funnycube]
   - Adds a couple [placeholders](/mermaids/compatibilities/placeholderapi/).
 - [Orbis Origins] By: [Hexvane]
@@ -24,10 +22,6 @@ nav_order: 6
   - Adds part of the [Mermaids Docs](https://mermaids.dev/mermaids/) in-game.
 - [Better Modlist] By: [Buuz135]
   - Adds the Mermaids logo to the mod list.
-- [MoreNPC] By: [BlueEyesWhiteMen]
-  - Trident will give increased movement speed underwater.
-- [Keyblades Reimagined] By: [TaHie]
-  - Some keyblades (Crabclaw for now) will give increased movement speed underwater.
 - [Endless Leveling] By: [Airijko]
   - Adds a custom Mermaid race to Endless Leveling with 10 variation of the mermaid race.
   - How to enable compatibility can be [found here](/mermaids/compatibilities/endless-leveling/).
@@ -49,10 +43,6 @@ nav_order: 6
 [Mayuna_1]: https://www.curseforge.com/members/mayuna_1/projects
 [Better Modlist]: https://www.curseforge.com/hytale/mods/better-modlist
 [Buuz135]: https://www.curseforge.com/members/buuz135/projects
-[MoreNPC]: https://www.curseforge.com/hytale/mods/morenpc
-[BlueEyesWhiteMen]: https://www.curseforge.com/members/blueeyeswhitemen/projects
-[Keyblades Reimagined]: https://www.curseforge.com/hytale/mods/keyblades-reimagined
-[TaHie]: https://www.curseforge.com/members/tahie/projects
 [Endless Leveling]: https://www.curseforge.com/hytale/mods/endlessleveling
 [Airijko]: https://www.curseforge.com/members/airijko/projects
 [Angler's Almanac]: https://www.curseforge.com/hytale/mods/anglers-almanac
