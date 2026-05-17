@@ -8,7 +8,7 @@ nav_order: 2
 ---
 
 ## Animations
-- [ ] Idle
+- [X] Idle
 - [ ] Walk
 - [ ] WalkBackward
 - [ ] Run
@@ -83,11 +83,11 @@ nav_order: 2
 - [ ] HurtDrown
 - [ ] DeathDrown
 - [ ] HurtBurn
-- [ ] Sleep (Animations made but they don't load)
-- [ ] Sleep2 (Animations made but they don't load)
-- [ ] Sit (Animations made but they don't load)
-- [ ] Sit2 (Animations made but they don't load)
-- [ ] SitGround (Animations made but they don't load)
+- [X] Sleep
+- [X] Sleep2
+- [X] Sit
+- [X] Sit2
+- [X] SitGround
 - [ ] Slide
 - [ ] IdlePassive
 - [ ] FlyIdlePassive

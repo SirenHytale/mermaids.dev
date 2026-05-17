@@ -11,6 +11,7 @@ nav_order: 2
 Ever wanted to be a Mermaid? Now you can with Mermaids, this mod allows the player to transform into a Mermaid when entering the water! Which will give the player increased movement speed, water breathing, night vision, and more while swimming underwater throughout the seas, oceans, and rivers.
 
 #### Features:
+
 - Works in Multiplayer.
 - Compatibility support with numerous mods.
 - Grow a Mermaid tail and keep your cosmetics.
@@ -32,7 +33,15 @@ Ever wanted to be a Mermaid? Now you can with Mermaids, this mod allows the play
 
 * * *
 
+#### Partnered Servers:
+
+- ÆtherTale
+  - play.aethertale.net:5100
+
+* * *
+
 #### All platforms the Mermaids mod is uploaded onto:
+
 - [Curseforge]
 - [Modtale]
 - [Modifold]

@@ -15,6 +15,10 @@ Sneak Peak of Mermaid model V2:
 ![MermaidV2_Tail_Model_SneakPeak_1_Img](/assets/images/gallery/mermaids/Mermaidv2-TailModel-SneakPeak1.png "MermaidV2 Sneak Peak 1 Img")
 A sneak peak of the tail model I've been working on (1).
 
+Mermaids Cheering on ÆtherTale:
+![AetherTale_Staff_Mermaids_Img](/assets/images/gallery/mermaids/mermaids-aethertale-staff.png "AetherTale Staff as Mermaids Img")
+Mermaids posing for a camera. Credits: KazumiiZ from ÆtherTale
+
 Mermaid Model v2 Sneak Peak:
 ![MermaidV2_Tail_Model_SneakPeak_3_Img](/assets/images/gallery/mermaids/Mermaidv2-TailModel-SneakPeak3.png "MermaidV2 Sneak Peak 3 Img")
 A sneak peak of the tail model I've been working on (3).
