@@ -18,8 +18,8 @@ nav_order: 3
 | mermaids.admin                                 | Allows the player to use the command /mermaids admin command line.                                                         |
 | mermaids.admin.reload                          | Allows the player to use the command /mermaids admin reload.                                                               |
 | mermaids.admin.mode                            | Allows the player to use the command /mermaids admin transformmode [New Mode Integer].                                     |
+| mermaids.admin.defaultmermaid                  | Allows the player to use the command /mermaids admin defaultmermaid [true/false].                                          |
 | mermaids.admin.mermaidonland                   | Allows the player to use the command /mermaids admin mermaidonland (and landspeeddebuff) [true/false].                     |
-| mermaids.admin.mermaidonland                   | Allows the player to use the command /mermaids admin mermaidonland [true/false].                                           |
 | mermaids.admin.blocktransform                  | Allows the player to use the command /mermaids admin blocktransformation [true/false].                                     |
 | mermaids.admin.raintransform                   | Allows the player to use the command /mermaids admin raintransformation [true/false].                                      |
 | mermaids.admin.mermaidglow                     | Allows the player to use the command /mermaids admin mermaidglow [true/false] and /mermaids admin mermaidglowraduis [int]. |
