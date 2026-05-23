@@ -17,7 +17,7 @@ Maven `pom.xml`:
     <dependency>
         <groupId>plugin.siren</groupId>
         <artifactId>Mermaids</artifactId>
-        <version>2.5.1</version>
+        <version>2.7.1</version>
         <scope>provided</scope>
         <optional>true</optional>
     </dependency>
@@ -27,7 +27,7 @@ Maven `pom.xml`:
 Gradle `build.gradle`: (untested)
 ```
 dependencies {
-    compileOnly 'plugin.siren:Mermaids:2.5.1'
+    compileOnly 'plugin.siren:Mermaids:2.7.1'
 }
 ```
 <br/>
@@ -37,14 +37,14 @@ dependencies {
 Optional Dependency `manifest.json`:
 ```json5
 "OptionalDependencies": {
-  "Siren:Mermaids": "*"
+  "Siren:Mermaids": ">=2.7.1"
 }
 ```
 
 Required Dependency `manifest.json`:
 ```json5
 "Dependencies": {
-  "Siren:Mermaids": "*"
+  "Siren:Mermaids": ">=2.7.1"
 }
 ```
 

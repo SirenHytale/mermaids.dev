@@ -18,6 +18,7 @@ nav_order: 6
   - How to enable compatibility can be [found here](/mermaids/compatibilities/orbis-origins/).
 - [Wardrobe] By: [jacksonhardaway]
   - Transforming back into a human from a mermaid reapplies the wardrobe cosmetics, still doesn't work on Mermaid model.
+  - Adds the Mermaids Seashell Bra and Fin ears as Wardrobe Cosmetics.
 - [Voile (in-game wiki)] By: [Mayuna_1]
   - Adds part of the [Mermaids Docs](https://mermaids.dev/mermaids/) in-game.
 - [Better Modlist] By: [Buuz135]

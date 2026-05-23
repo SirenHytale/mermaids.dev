@@ -29,6 +29,23 @@ public class MermaidsAPI {
     }
 
     /**
+     * Check to see if the reference is a mermaid.
+     *
+     * @param  commandBuffer  The entity store, command buffer
+     * @param  ref  The entity store, reference
+     * @return  boolean of rather the reference is a mermaid
+     */
+    public static boolean isMermaid(CommandBuffer<EntityStore> commandBuffer, Ref<EntityStore> ref){
+        MermaidComponent mermaid = commandBuffer.getComponent(ref, MermaidComponent.getComponentType());
+        if(mermaid == null){
+            Mermaids.LOGGER.atSevere().log("ERROR: isMermaid: Mermaid Component is null for MermaidsAPI getMermaid -- returning false");
+            return false;
+        }else{
+            return mermaid.isMermaid();
+        }
+    }
+
+    /**
      * Check to see if the reference is underwater.
      *
      * @param  store  The entity store, store
@@ -37,6 +54,23 @@ public class MermaidsAPI {
      */
     public static boolean isUnderwater(Store<EntityStore> store, Ref<EntityStore> ref){
         MermaidComponent mermaid = store.getComponent(ref, MermaidComponent.getComponentType());
+        if(mermaid == null){
+            Mermaids.LOGGER.atSevere().log("ERROR: isUnderwater: Mermaid Component is null for MermaidsAPI getMermaid -- returning false");
+            return false;
+        }else{
+            return mermaid.isUnderwater();
+        }
+    }
+
+    /**
+     * Check to see if the reference is underwater.
+     *
+     * @param  commandBuffer  The entity store, command buffer
+     * @param  ref  The entity store, reference
+     * @return  boolean of rather the reference is underwater
+     */
+    public static boolean isUnderwater(CommandBuffer<EntityStore> commandBuffer, Ref<EntityStore> ref){
+        MermaidComponent mermaid = commandBuffer.getComponent(ref, MermaidComponent.getComponentType());
         if(mermaid == null){
             Mermaids.LOGGER.atSevere().log("ERROR: isUnderwater: Mermaid Component is null for MermaidsAPI getMermaid -- returning false");
             return false;
@@ -63,6 +97,23 @@ public class MermaidsAPI {
     }
 
     /**
+     * Check to see if the reference is forced to be a mermaid.
+     *
+     * @param  commandBuffer  The entity store, command buffer
+     * @param  ref  The entity store, reference
+     * @return  boolean of rather the reference is forced to be a mermaid
+     */
+    public static boolean isForcedMermaid(CommandBuffer<EntityStore> commandBuffer, Ref<EntityStore> ref){
+        MermaidSettingsComponent mermaidSettings = commandBuffer.getComponent(ref, MermaidSettingsComponent.getComponentType());
+        if(mermaidSettings == null){
+            Mermaids.LOGGER.atSevere().log("ERROR: isForcedMermaid: Mermaid Settings Component is null for MermaidsAPI getMermaid -- returning false");
+            return false;
+        }else{
+            return mermaidSettings.isForcedMermaid();
+        }
+    }
+
+    /**
      * Force the reference to be / not be a mermaid.
      *
      * @param  store  The entity store, store
@@ -71,6 +122,22 @@ public class MermaidsAPI {
      */
     public static void setForcedMermaid(Store<EntityStore> store, Ref<EntityStore> ref, boolean forcedMermaid){
         MermaidSettingsComponent mermaidSettings = store.getComponent(ref, MermaidSettingsComponent.getComponentType());
+        if(mermaidSettings == null){
+            Mermaids.LOGGER.atSevere().log("ERROR: setForcedMermaid: Mermaid Settings Component is null for MermaidsAPI getMermaid -- doing nothing");
+        }else{
+            mermaidSettings.setForcedMermaid(forcedMermaid);
+        }
+    }
+
+    /**
+     * Force the reference to be / not be a mermaid.
+     *
+     * @param  commandBuffer  The entity store, command buffer
+     * @param  ref  The entity store, reference
+     * @param  forcedMermaid  rather to force to (not) be a mermaid
+     */
+    public static void setForcedMermaid(CommandBuffer<EntityStore> commandBuffer, Ref<EntityStore> ref, boolean forcedMermaid){
+        MermaidSettingsComponent mermaidSettings = commandBuffer.getComponent(ref, MermaidSettingsComponent.getComponentType());
         if(mermaidSettings == null){
             Mermaids.LOGGER.atSevere().log("ERROR: setForcedMermaid: Mermaid Settings Component is null for MermaidsAPI getMermaid -- doing nothing");
         }else{
