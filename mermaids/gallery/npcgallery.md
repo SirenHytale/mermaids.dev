@@ -1,7 +1,7 @@
 ---
 title: NPC's Gallery
 description: Mermaids Mod - NPC's Gallery
-parent: Mermaids
+parent: Gallery
 layout: page
 permalink: /mermaids/gallery/npcs/
 nav_order: 1

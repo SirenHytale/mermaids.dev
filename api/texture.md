@@ -16,17 +16,17 @@ Model with textures color coded:
 ![Mermaids_API_ColorCoded_Model_Img](/assets/images/api/mermaids/MermaidTextureV2_ColorCoded.png "MermaidsAPI ColorCoded Model Img")
 
 
-| Color Key                                                         | Description |
-|:------------------------------------------------------------------|:---|
-| <br><span style="color: rgb(127, 0, 0);">#Maroon</span>      | Left side of the Mermaid Tail. |
-| <br><span style="color: rgb(255, 0, 0);">#Red</span>              | Front of the Mermaid Tail. |
-| <br><span style="color: rgb(170, 0, 0);">#Dark Red</span>         | Right side of the Mermaid Tail. |
-| <br><span style="color: rgb(255, 58, 58);">#Light Red</span>      | Back of the Mermaid Tail. |
-| <br><span style="color: rgb(127, 0, 55);">#Dark Pink</span>       | Top parts of the Mermaid Tail : Shown when rotated. |
+| Color Key                                                         | Description                                                                  |
+|:------------------------------------------------------------------|:-----------------------------------------------------------------------------|
+| <br><span style="color: rgb(127, 0, 0);">#Maroon</span>           | Left side of the Mermaid Tail.                                               |
+| <br><span style="color: rgb(255, 0, 0);">#Red</span>              | Front of the Mermaid Tail.                                                   |
+| <br><span style="color: rgb(170, 0, 0);">#Dark Red</span>         | Right side of the Mermaid Tail.                                              |
+| <br><span style="color: rgb(255, 58, 58);">#Light Red</span>      | Back of the Mermaid Tail.                                                    |
+| <br><span style="color: rgb(127, 0, 55);">#Dark Pink</span>       | Top parts of the Mermaid Tail : Shown when rotated.                          |
 | <br><span style="color: rgb(255, 0, 110);">#Hot Pink</span>       | Bottom parts of the Mermaid Tail : Some shown when rotated and/or unrotated. |
-| <br><span style="color: rgb(0, 127, 127);">#Turquoise</span>      | Inner Fin left side outer color. |
-| <br><span style="color: rgb(0, 255, 255);">#Aqua</span>           | Inner Fin left side inner color. |
-| <br><span style="color: rgb(0, 148, 255);">#Sea Blue</span>       | Front of the Inner Fin. |
+| <br><span style="color: rgb(0, 127, 127);">#Turquoise</span>      | Inner Fin left side outer color.                                             |
+| <br><span style="color: rgb(0, 255, 255);">#Aqua</span>           | Inner Fin left side inner color.                                             |
+| <br><span style="color: rgb(0, 148, 255);">#Sea Blue</span>       | Front of the Inner Fin.                                                      |
 | <br><span style="color: rgb(0, 0, 255);">#Blue</span>             | Inner Fin left side inner color.                                             |
 | <br><span style="color: rgb(0, 26, 173);">#Dark Blue</span>       | Inner Fin left side outer color.                                             |
 | <br><span style="color: rgb(72, 0, 255);">#Indigo</span>          | Back of the Inner Fin.                                                       |
