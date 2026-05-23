@@ -46,8 +46,8 @@ nav_order: 1
 
 #### Mermaid Neutral NPCs Test | Hytale Mermaids v2.2.0
 
-- https://youtu.be/DGGP8usOd60
+- [https://youtu.be/DGGP8usOd60](https://youtu.be/DGGP8usOd60)
 
 #### Testing of Zombie transforming into Mermaid | Hytale Mermaids v2.6.0
 
-- https://youtu.be/FN7c8vnRFmo
+- [https://youtu.be/FN7c8vnRFmo](https://youtu.be/FN7c8vnRFmo)
