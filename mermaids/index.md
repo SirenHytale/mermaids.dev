@@ -43,9 +43,9 @@ Ever wanted to be a Mermaid? Now you can with Mermaids, this mod allows the play
 #### All platforms the Mermaids mod is uploaded onto:
 
 - [Curseforge]
-- [Modtale]
 - [Modifold]
-- [Orbis Place]
+- [Modtale]
+- [Orbis Place] (Outdated, website doesn't approve updates anymore)
 
 [Mermaids]: /mermaids/curseforge/
 [YouTube Trailer]: https://www.youtube.com/watch?v=BiXuvNlxMnk

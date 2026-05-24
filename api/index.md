@@ -9,6 +9,7 @@ nav_order: 3
 ### Welcome to the Official [Mermaids](https://www.curseforge.com/hytale/mods/mermaids) Mod API Docs!
 
 API added with Mermaids v1.4.0.
+API last updated with Mermaids v2.7.1.
 
 To get started check out [Getting Started](/api/getting-started/).
 
