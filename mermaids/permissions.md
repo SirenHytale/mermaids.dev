@@ -29,3 +29,18 @@ nav_order: 3
 | mermaids.admin.endlessleveling                 | Allows the player to use the command /mermaids admin endlessleveling command line.                                         |
 | mermaids.admin.endlessleveling.mermaidscontent | Allows the player to use the command /mermaids admin endlessleveling mermaidscontent [true/false].                         |
 | mermaids.admin.endlessleveling.onlyinwater     | Allows the player to use the command /mermaids admin endlessleveling onlyinwater [true/false].                             |
+
+<br/>
+
+* * *
+
+<br/>
+
+#### Werewolf & Vampire Permissions
+New in Mermaids v3.0.4. The Werewolf and Vampire commands reuse the shared `mermaids`, `mermaids.toggle`, and `mermaids.admin` permissions above, applied per-creature:
+
+| Permission:      | Description:                                                                                                     |
+|:------------------|:-------------------------------------------------------------------------------------------------------------------|
+| mermaids          | Allows the player to open the Werewolf (/werewolf, /were) and Vampire (/vampire, /vamp) menus, along with /mermaid.|
+| mermaids.toggle    | Allows the player to use /mermaids werewolf toggle [true/false] and /mermaids vampire toggle [true/false].         |
+| mermaids.admin     | Allows the player to use /mermaids werewolf admin and /mermaids vampire admin command lines.                       |

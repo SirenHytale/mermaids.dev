@@ -8,15 +8,16 @@ nav_order: 2
 ---
 
 #### Mermaids Config.
-This is the default config values and descriptions for the Mermaids config version 18,
-found in the path `mods/Siren_Mermaids/Config.json`.
+This is the default config values and descriptions for the Mermaids config (updated for Mermaids v3.0.4),
+found in the path `mods/Siren_Mermaids/Config.json`. The `ConfigVersion` value will automatically increase whenever
+the config layout changes between mod updates, and the mod will migrate your existing config for you.
 
 | Variable Name:                                             | Default Value:                                                              | Description:                                                                                                                                                                        |
 |:-----------------------------------------------------------|:----------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | "Config-Information"                                       | A long string that tells you to come to this site.                          | Information about how to find stuff related to the config.                                                                                                                          |
 | "ConfigVersion"                                            | 19                                                                          | Current Version when you have loaded for the plugin.                                                                                                                                |
 | "PluginName"                                               | "Mermaids"                                                                  | Plugin name.                                                                                                                                                                        |
-| "Version"                                                  | "2.7.1"                                                                     | Version of the last ran mod jar.                                                                                                                                                    |
+| "Version"                                                  | "3.0.4"                                                                     | Version of the last ran mod jar.                                                                                                                                                    |
 | "Website"                                                  | "https://www.mermaids.dev/mermaids/"                                        | Official website for the Mermaids mod.                                                                                                                                              |
 | "Download-Site"                                            | "https://www.curseforge.com/hytale/mods/mermaids"                           | Website to download this mod, check for updates, and information.                                                                                                                   |
 | "Enable-Generic-Console-Logs"                              | false                                                                       | Send console logs for majority of mermaid actions: transforming and modifying settings.                                                                                             |
@@ -101,3 +102,42 @@ found in the path `mods/Siren_Mermaids/Compatibility/EndlessLeveling.json`.
 | "Default-Mermaids-Content"                          | false                                                                                            | Toggle the Mermaids mod content. If false, you can only transform into a Mermaid as a mermaid species. |
 | "Description-Default-Mermaids-Content"              | A description of what the "Default-Mermaids-Content" does.                                       | A description of what another variable does.                                                           |
 | "Mermaid-Only-In-Water"                             | true                                                                                             | When the player is a mermaid race, they will only have a Mermaid tail while in water.                  |
+
+<br/>
+
+* * *
+
+<br/>
+
+#### Werewolf Config
+New in Mermaids v3.0.4, see the [Werewolf](/mermaids/races/werewolf/) race page for more info.
+This is the default config values and descriptions for the Werewolf config,
+found in the path `mods/Siren_Mermaids/Compatibility/Werewolf.json`.
+
+| Variable Name:                       | Default Value:                                      | Description:                                                                                                                     |
+|:---------------------------------------|:-------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------|
+| "Config-Information"                   | A long string that tells you to come to this site.     | Information about how to find stuff related to the config.                                                                            |
+| "ConfigVersion"                        | Current version                                        | Current Version when you have loaded for the plugin.                                                                                   |
+| "Transformation-Mode"                  | 0                                                       | TransformationMode = 0: Transform automatically based on time/moon phase, TransformationMode = 1: Requires drinking a Werewolf Potion. |
+| "Description-Transformation-Mode"      | A long string describing Transformation-Mode.          | A description of the Transformation-Mode config option.                                                                                |
+| "Werewolf-Nighttime-Transform"         | Nighttime hour                                          | The in-game hour that Werewolf transformations begin at night.                                                                         |
+| "Werewolf-Daytime-Transform"           | Daytime hour                                            | The in-game hour that Werewolf transformations end and revert back to human during the day.                                           |
+| "Werewolf-Moon-Phase-Disabled"         | []                                                      | An array of moon phases that will NOT trigger a Werewolf transformation, even during the configured nighttime hours.                  |
+
+<br/>
+
+* * *
+
+<br/>
+
+#### Vampire Config
+New in Mermaids v3.0.4, see the [Vampire](/mermaids/races/vampire/) race page for more info.
+This is the default config values and descriptions for the Vampire config,
+found in the path `mods/Siren_Mermaids/Compatibility/Vampire.json`.
+
+| Variable Name:                    | Default Value:                                      | Description:                                                                                        |
+|:------------------------------------|:-------------------------------------------------------|:---------------------------------------------------------------------------------------------------------|
+| "Config-Information"                | A long string that tells you to come to this site.     | Information about how to find stuff related to the config.                                               |
+| "ConfigVersion"                     | Current version                                        | Current Version when you have loaded for the plugin.                                                     |
+| "Transformation-Mode"               | 1                                                       | TransformationMode = 0: Transform automatically, TransformationMode = 1: Requires drinking a Vampire Potion. |
+| "Description-Transformation-Mode"   | A long string describing Transformation-Mode.          | A description of the Transformation-Mode config option.                                                  |

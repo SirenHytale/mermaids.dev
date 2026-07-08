@@ -8,20 +8,26 @@ nav_order: 2
 
 ### Welcome to the Official [Mermaids] Mod Wiki!
 
-Ever wanted to be a Mermaid? Now you can with Mermaids, this mod allows the player to transform into a Mermaid when entering the water! Which will give the player increased movement speed, water breathing, night vision, and more while swimming underwater throughout the seas, oceans, and rivers.
+Now up to date for **Mermaids v3.0.4**! Ever wanted to be a Mermaid? Now you can with Mermaids, this mod allows the player to transform into a Mermaid when entering the water! Which will give the player increased movement speed, water breathing, night vision, and more while swimming underwater throughout the seas, oceans, and rivers.
+
+As of v3.0.4, Mermaids has grown beyond just mermaids -- the mod now includes a full **Mythical Creatures** system, adding **Werewolves** and **Vampires** as playable transformations alongside Mermaids. Check out the [Races] page to learn about each one.
 
 #### Features:
 
 - Works in Multiplayer.
 - Compatibility support with numerous mods.
+- Three playable Mythical Creatures: [Mermaid], [Werewolf], and [Vampire].
 - Grow a Mermaid tail and keep your cosmetics.
 - Breathe underwater with increased swim speed.
 - Custom Mermaid NPCs that spawn in the ocean.
 - Move slower on land as a mermaid.
-- Configurable transformation options.
+- Werewolves transform based on the time of day and moon phase.
+- Vampires hide incompatible armor cosmetics while transformed.
+- Configurable transformation options for every creature.
   - Transform only by potions and/or enable for all.
+- Small, Medium, and Large potions for temporary or permanent transformations.
 - Custom models and animations, WIP.
-- Permissions and config.
+- Permissions and config for every creature.
 - Mermaid cosmetic armor.
 - Custom Mermaids mod API.
 
@@ -53,3 +59,7 @@ Ever wanted to be a Mermaid? Now you can with Mermaids, this mod allows the play
 [Modtale]: /mermaids/modtale/
 [Modifold]: /mermaids/modifold/
 [Orbis Place]: /mermaids/orbis-place/
+[Races]: /mermaids/races/
+[Mermaid]: /mermaids/races/mermaid/
+[Werewolf]: /mermaids/races/werewolf/
+[Vampire]: /mermaids/races/vampire/

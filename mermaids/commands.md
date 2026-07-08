@@ -36,3 +36,35 @@ nav_order: 1
 | /mermaids admin endlessleveling                              | The Endless Leveling Compatibility command line. Will only be visiable when enabled with the Endless Leveling mod.                         | mermaids.admin.endlessleveling                 |
 | /mermaids admin endlessleveling mermaidscontent [true/false] | Toggle to allow regular Mermaids content. If false, you can only transform into a Mermaid as a mermaid race.                               | mermaids.admin.endlessleveling.mermaidscontent |
 | /mermaids admin endlessleveling onlyinwater [true/false]     | As a mermaid race, you will only have a Mermaid tail while in water.                                                                       | mermaids.admin.endlessleveling.onlyinwater     |
+
+<br/>
+
+* * *
+
+<br/>
+
+#### Werewolf Commands
+New in Mermaids v3.0.4, see the [Werewolf](/mermaids/races/werewolf/) race page for more info.
+
+| Command:                                 | Description:                                                                         | Permission:     |
+|:------------------------------------------|:---------------------------------------------------------------------------------------|:----------------|
+| /werewolf OR /were                        | Opens the Werewolf mod menu.                                                           | mermaids        |
+| /mermaids werewolf                        | Opens the Werewolf mod menu, alias accessed through the main Mermaids command line.     | mermaids        |
+| /mermaids werewolf toggle [true/false]    | You can enable or disable Werewolf transformations for yourself.                       | mermaids.toggle |
+| /mermaids werewolf admin                  | Werewolf admin command line.                                                           | mermaids.admin  |
+
+<br/>
+
+* * *
+
+<br/>
+
+#### Vampire Commands
+New in Mermaids v3.0.4, see the [Vampire](/mermaids/races/vampire/) race page for more info.
+
+| Command:                                 | Description:                                                                         | Permission:     |
+|:------------------------------------------|:---------------------------------------------------------------------------------------|:----------------|
+| /vampire OR /vamp                         | Opens the Vampire mod menu.                                                            | mermaids        |
+| /mermaids vampire                         | Opens the Vampire mod menu, alias accessed through the main Mermaids command line.      | mermaids        |
+| /mermaids vampire toggle [true/false]     | You can enable or disable Vampire transformations for yourself.                        | mermaids.toggle |
+| /mermaids vampire admin                   | Vampire admin command line.                                                            | mermaids.admin  |
