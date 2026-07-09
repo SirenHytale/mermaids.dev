@@ -1,7 +1,7 @@
 ---
 title: Gallery
-description: Mermaids Mod - Gallery
-parent: Mermaids
+description: Mermaids and Mythical Creatures Mod - Gallery
+parent: Mermaids and Mythical Creatures
 layout: page
 permalink: /mermaids/gallery/
 nav_order: 5

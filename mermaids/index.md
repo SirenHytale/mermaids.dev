@@ -1,16 +1,16 @@
 ---
-title: Mermaids
-description: Docs for the Hytale Mermaids Mod
+title: Mermaids and Mythical Creatures
+description: Docs for the Hytale Mermaids and Mythical Creatures Mod
 layout: page
 permalink: /mermaids/
 nav_order: 2
 ---
 
-### Welcome to the Official [Mermaids] Mod Wiki!
+### Welcome to the Official [Mermaids and Mythical Creatures] Mod Wiki!
 
 Now up to date for **Update Version 3**! Ever wanted to be a Mermaid? Now you can with Mermaids, this mod allows the player to transform into a Mermaid when entering the water! Which will give the player increased movement speed, water breathing, night vision, and more while swimming underwater throughout the seas, oceans, and rivers.
 
-As of Update Version 3, Mermaids has grown beyond just mermaids -- the mod now includes a full **Mythical Creatures** system, adding **Werewolves** and **Vampires** as playable transformations alongside Mermaids. Check out the [Races] page to learn about each one.
+As of Update Version 3, Mermaids has grown beyond just mermaids -- the mod now includes a full **Mythical Creatures** system, adding **Werewolves** and **Vampires** as playable transformations alongside Mermaids. Check out the [Mythical Creatures] page to learn about each one.
 
 #### Features:
 
@@ -50,15 +50,15 @@ As of Update Version 3, Mermaids has grown beyond just mermaids -- the mod now i
 - [Curseforge]
 - [Modifold]
 - [Modtale]
-- [Orbis Place] (Outdated, website doesn't approve updates anymore)
+- Orbis Place (No longer update since update v3)
 
-[Mermaids]: /mermaids/curseforge/
+[Mermaids and Mythical Creatures]: /mermaids/curseforge/
 [YouTube Trailer]: https://www.youtube.com/watch?v=BiXuvNlxMnk
 [Curseforge]: /mermaids/curseforge/
 [Modtale]: /mermaids/modtale/
 [Modifold]: /mermaids/modifold/
 [Orbis Place]: /mermaids/orbis-place/
-[Races]: /mermaids/races/
-[Mermaid]: /mermaids/races/mermaid/
-[Werewolf]: /mermaids/races/werewolf/
-[Vampire]: /mermaids/races/vampire/
+[Mythical Creatures]: /mermaids/creatures/
+[Mermaid]: /mermaids/creatures/mermaid/
+[Werewolf]: /mermaids/creatures/werewolf/
+[Vampire]: /mermaids/creatures/vampire/

@@ -1,6 +1,6 @@
 ---
 title: Orbis Origins Expansion
-description: Mermaids Mod - Orbis Origins Compatibility
+description: Mermaids and Mythical Creatures Mod - Orbis Origins Compatibility
 parent: Mod Compatibilities
 layout: page
 permalink: /mermaids/compatibilities/orbis-origins/

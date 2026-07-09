@@ -1,10 +1,9 @@
 ---
-title: Vampire
-description: Mermaids Mod - Vampire Race
-parent: Races
-grand_parent: Mermaids
+title: Vampire Mythical Creature
+description: Mermaids and Mythical Creatures Mod - Vampire Race
+parent: Mythical Creatures
 layout: page
-permalink: /mermaids/races/vampire/
+permalink: /mermaids/creatures/vampire/
 nav_order: 3
 ---
 

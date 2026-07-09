@@ -1,6 +1,6 @@
 ---
 title: Endless Leveling Addon
-description: Mermaids Mod - Endless Leveling Compatibility
+description: Mermaids and Mythical Creatures Mod - Endless Leveling Compatibility
 parent: Mod Compatibilities
 layout: page
 permalink: /mermaids/compatibilities/endless-leveling/

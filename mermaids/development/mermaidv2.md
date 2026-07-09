@@ -1,6 +1,6 @@
 ---
 title: Mermaid v2 Tail Model
-description: Mermaids Mod - Mermaid v2 Tail Model
+description: Mermaids and Mythical Creatures Mod - Mermaid v2 Tail Model
 parent: Development
 layout: page
 permalink: /mermaids/dev/mermaidv2/

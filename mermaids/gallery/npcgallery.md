@@ -1,6 +1,6 @@
 ---
 title: NPC's Gallery
-description: Mermaids Mod - NPC's Gallery
+description: Mermaids and Mythical Creatures Mod - NPC's Gallery
 parent: Gallery
 layout: page
 permalink: /mermaids/gallery/npcs/

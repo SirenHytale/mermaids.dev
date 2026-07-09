@@ -1,7 +1,7 @@
 ---
 title: Mod Compatibilities
-description: Mermaids Mod - Mod Compatibilities List
-parent: Mermaids
+description: Mermaids and Mythical Creatures Mod - Mod Compatibilities List
+parent: Mermaids and Mythical Creatures
 layout: page
 permalink: /mermaids/compatibilities/
 nav_order: 6

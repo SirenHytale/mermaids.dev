@@ -1,9 +1,9 @@
 ---
-title: Races
-description: Mermaids Mod - Mythical Creatures Races
-parent: Mermaids
+title: Mythical Creatures
+description: Mermaids and Mythical Creatures Mod - Mythical Creatures
+parent: Mermaids and Mythical Creatures
 layout: page
-permalink: /mermaids/races/
+permalink: /mermaids/creatures/
 nav_order: 7
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Config
-description: Mermaids Mod - Config
-parent: Mermaids
+description: Mermaids and Mythical Creatures Mod - Config
+parent: Mermaids and Mythical Creatures
 layout: page
 permalink: /mermaids/config/
 nav_order: 2

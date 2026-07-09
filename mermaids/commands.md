@@ -1,7 +1,7 @@
 ---
 title: Commands
-description: Mermaids Mod - Commands
-parent: Mermaids
+description: Mermaids and Mythical Creatures Mod - Commands
+parent: Mermaids and Mythical Creatures
 layout: page
 permalink: /mermaids/commands/
 nav_order: 1

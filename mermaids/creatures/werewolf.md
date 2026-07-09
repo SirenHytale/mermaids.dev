@@ -1,10 +1,9 @@
 ---
-title: Werewolf
-description: Mermaids Mod - Werewolf Race
-parent: Races
-grand_parent: Mermaids
+title: Werewolf Mythical Creature
+description: Mermaids and Mythical Creatures Mod - Werewolf Race
+parent: Mythical Creatures
 layout: page
-permalink: /mermaids/races/werewolf/
+permalink: /mermaids/creatures/werewolf/
 nav_order: 2
 ---
 

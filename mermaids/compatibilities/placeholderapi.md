@@ -1,6 +1,6 @@
 ---
 title: PlaceholderAPI Expansion
-description: Mermaids Mod - Mermaids PlaceholderAPI Expansion
+description: Mermaids and Mythical Creatures Mod - Mermaids PlaceholderAPI Expansion
 parent: Mod Compatibilities
 layout: page
 permalink: /mermaids/compatibilities/placeholderapi/

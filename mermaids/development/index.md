@@ -1,7 +1,7 @@
 ---
 title: Development
-description: Development Roadmap for the Hytale Mermaids Mod
-parent: Mermaids
+description: Development Roadmap for the Hytale Mermaids and Mythical Creatures Mod
+parent: Mermaids and Mythical Creatures
 layout: page
 permalink: /mermaids/dev/
 nav_order: 4
