@@ -44,7 +44,7 @@ nav_order: 1
 <br/>
 
 #### Werewolf Commands
-New in Mermaids v3.0.4, see the [Werewolf](/mermaids/races/werewolf/) race page for more info.
+New in Update Version 3, see the [Werewolf](/mermaids/races/werewolf/) race page for more info.
 
 | Command:                                 | Description:                                                                         | Permission:     |
 |:------------------------------------------|:---------------------------------------------------------------------------------------|:----------------|
@@ -60,7 +60,7 @@ New in Mermaids v3.0.4, see the [Werewolf](/mermaids/races/werewolf/) race page 
 <br/>
 
 #### Vampire Commands
-New in Mermaids v3.0.4, see the [Vampire](/mermaids/races/vampire/) race page for more info.
+New in Update Version 3, see the [Vampire](/mermaids/races/vampire/) race page for more info.
 
 | Command:                                 | Description:                                                                         | Permission:     |
 |:------------------------------------------|:---------------------------------------------------------------------------------------|:----------------|

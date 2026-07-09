@@ -8,9 +8,9 @@ nav_order: 2
 
 ### Welcome to the Official [Mermaids] Mod Wiki!
 
-Now up to date for **Mermaids v3.0.4**! Ever wanted to be a Mermaid? Now you can with Mermaids, this mod allows the player to transform into a Mermaid when entering the water! Which will give the player increased movement speed, water breathing, night vision, and more while swimming underwater throughout the seas, oceans, and rivers.
+Now up to date for **Update Version 3**! Ever wanted to be a Mermaid? Now you can with Mermaids, this mod allows the player to transform into a Mermaid when entering the water! Which will give the player increased movement speed, water breathing, night vision, and more while swimming underwater throughout the seas, oceans, and rivers.
 
-As of v3.0.4, Mermaids has grown beyond just mermaids -- the mod now includes a full **Mythical Creatures** system, adding **Werewolves** and **Vampires** as playable transformations alongside Mermaids. Check out the [Races] page to learn about each one.
+As of Update Version 3, Mermaids has grown beyond just mermaids -- the mod now includes a full **Mythical Creatures** system, adding **Werewolves** and **Vampires** as playable transformations alongside Mermaids. Check out the [Races] page to learn about each one.
 
 #### Features:
 
@@ -35,7 +35,6 @@ As of v3.0.4, Mermaids has grown beyond just mermaids -- the mod now includes a 
 
 [<span style="color: #c2e0f4;"><img src="https://api.hstats.dev/api/embed/81231ba0-dc7e-4469-904b-00a66a9ceae6/card.svg?theme=dark&amp;layout=history&amp;size=lg&amp;show_id=true&amp;dark=false" alt="HStats Mermaids Mod with History Img" width="920" height="340"></span>](/mermaids/hstats/)
 
-{ WEBPAGE IN DEVELOPMENT }
 
 * * *
 

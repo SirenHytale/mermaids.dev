@@ -37,7 +37,7 @@ nav_order: 3
 <br/>
 
 #### Werewolf & Vampire Permissions
-New in Mermaids v3.0.4. The Werewolf and Vampire commands reuse the shared `mermaids`, `mermaids.toggle`, and `mermaids.admin` permissions above, applied per-creature:
+New in Update Version 3. The Werewolf and Vampire commands reuse the shared `mermaids`, `mermaids.toggle`, and `mermaids.admin` permissions above, applied per-creature:
 
 | Permission:      | Description:                                                                                                     |
 |:------------------|:-------------------------------------------------------------------------------------------------------------------|

@@ -10,7 +10,7 @@ nav_order: 3
 
 ### Vampire
 
-The Vampire is the second new Mythical Creature added in Mermaids v3.0.4, alongside the [Werewolf].
+The Vampire is the second new Mythical Creature added in Update Version 3, alongside the [Werewolf].
 
 #### What it does
 

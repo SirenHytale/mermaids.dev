@@ -10,7 +10,7 @@ nav_order: 2
 
 ### Werewolf
 
-The Werewolf is one of the two new Mythical Creatures added in Mermaids v3.0.4, alongside the [Vampire].
+The Werewolf is one of the two new Mythical Creatures added in Update Version 3, alongside the [Vampire].
 
 #### What it does
 

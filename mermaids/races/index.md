@@ -9,7 +9,7 @@ nav_order: 7
 
 ### Mythical Creatures
 
-Starting with **Mermaids v3.0.4**, the mod's transformation system was expanded into a full **Mythical Creatures** framework. On top of the original Mermaid transformation, players can now also transform into a **Werewolf** or a **Vampire**.
+Starting with **Update Version 3**, the mod's transformation system was expanded into a full **Mythical Creatures** framework. On top of the original Mermaid transformation, players can now also transform into a **Werewolf** or a **Vampire**.
 
 Each creature has its own:
 
@@ -27,4 +27,3 @@ A player can only be actively transformed into one Mythical Creature at a time. 
 - [Werewolf](/mermaids/races/werewolf/) -- transform at night or during certain moon phases for a beastly form.
 - [Vampire](/mermaids/races/vampire/) -- transform into an undead creature of the night with its own cosmetic handling.
 
-{ WEBPAGE IN DEVELOPMENT }
