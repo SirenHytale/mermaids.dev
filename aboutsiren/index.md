@@ -18,7 +18,7 @@ Hello, I am Siren--creator of Mermaids mod--a Hytale developer. A couple of mont
 
 ### Want to Support me?
 
-You can use my Hytale Creator Code at checkout: <strong>SIREN</strong>
+Support me on [Patreon] to help me continue to make mods for Hytale. You can also support me by using my Creator Code at checkout on the Hytale Store: <strong>SIREN</strong>
 
 ![Use Creator Code SIREN](/assets/images/utils/mermaids_creatorcode.png "Use Creator Code SIREN")
 
@@ -26,3 +26,4 @@ You can use my Hytale Creator Code at checkout: <strong>SIREN</strong>
 [Discord]: /discord/
 [YouTube]: /youtube/
 [GitHub]: /github/
+[Patreon]: /patreon/

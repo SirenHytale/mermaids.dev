@@ -7,9 +7,11 @@ permalink: /mermaids/premium/
 nav_order: 8
 ---
 
-### Mermaids Premium
+### [Mermaids Premium]
 
-**Mermaids Premium** is a separate, optional addon jar that sits on top of the base Mermaids and Mythical Creatures mod, adding extra cosmetic and progression content for supporters. It requires the base Mermaids mod to be installed, and unlocks additional integration if the [Endless Leveling](https://www.curseforge.com/hytale/mods/endless-leveling) mod is also present.
+**Mermaids Premium** is a separate, optional paid addon jar that sits on top of the base Mermaids and Mythical Creatures mod, adding extra cosmetic and progression content for supporters. It requires the base Mermaids mod to be installed, and unlocks additional integration if the [Endless Leveling](https://www.curseforge.com/hytale/mods/endless-leveling) mod is also present.
+
+To unlock Mermaids Premium, you can support the mod on [Patreon] at any tier. Once you have a valid Patreon account, you can download the Mermaids Premium jar from any of the latest posts on my Patreon page and place it in your `mods` folder alongside the base Mermaids mod.
 
 #### What it adds
 
@@ -179,4 +181,6 @@ flowchart TD;
 
 Since these races and passives are provided by Mermaids Premium but only activate through Endless Leveling, make sure both mods are installed and up to date to take advantage of them. See the [Compatibilities](/mermaids/compatibilities/) page for more on mod compatibility in general.
 
+[Mermaids Premium]: /patreon/
+[Patreon]: /patreon/
 [Endless Leveling]: https://www.curseforge.com/hytale/mods/endless-leveling
