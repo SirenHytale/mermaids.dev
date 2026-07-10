@@ -49,6 +49,27 @@ If the Endless Leveling mod is installed alongside Mermaids Premium, each Mythic
 
 Every race in every line also carries an **Innate Attribute Gain**, a small automatic boost to one of the character's base stats (such as Life Force) simply for being that race.
 
+<br/>
+
+* * *
+
+<br/>
+
+#### Custom Passives
+
+Mermaids Premium introduces three brand new passive types into Endless Leveling, built specifically for the Mythical Creatures system. These are shared across whichever races make use of them, rather than being one-off effects:
+
+- **Tidal Affinity** -- A Mermaid-only passive that ties combat strength to being in the water. It grants a bonus while the player is transformed into a Mermaid, and applies a small penalty while the player is untransformed on land, encouraging Mermaids to fight from the water rather than the shore.
+- **Mermaid Aura** -- A supportive passive unique to the Mermaid line. While transformed, the Mermaid passively radiates an aura around themselves out to a set radius, restoring a portion of mana and stamina to anyone standing nearby -- turning a Mermaid into a bit of a support unit for their group.
+- **Moonlight** -- Shared by both the Werewolf and Vampire lines, since both are creatures of the night. Grants a bonus to damage and haste, rewarding these races for fighting after dark rather than during the day.
+  These three passives are configured per-race from the race's passive list, so different races along the same line can tune the strength of Tidal Affinity, Mermaid Aura, or Moonlight differently -- a higher tier race isn't guaranteed a stronger version of the passive unless its race definition says so.
+
+<br/>
+
+* * *
+
+<br/>
+
 ##### Mermaid Race Line
 
 ```mermaid
