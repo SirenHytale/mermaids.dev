@@ -24,15 +24,15 @@ A player can only be actively transformed into one Mythical Creature at a time. 
 #### Available Mythical Creatures
 
 ```mermaid
-flowchart TD
-    Player["Player"]
-    Player --> Mermaid["Mermaid<br/>Transforms in water"]
-    Player --> Werewolf["Werewolf<br/>Transforms at night / moon phase"]
-    Player --> Vampire["Vampire<br/>Transforms via potion or at night"]
+flowchart TD;
+    Player["Player"];
+    Player --> Mermaid["Mermaid<br/>Transforms in water"];
+    Player --> Werewolf["Werewolf<br/>Transforms at night / moon phase"];
+    Player --> Vampire["Vampire<br/>Transforms via potion or at night"];
 
-    click Mermaid "/mermaids/creatures/mermaid/" "View the Mermaid page"
-    click Werewolf "/mermaids/creatures/werewolf/" "View the Werewolf page"
-    click Vampire "/mermaids/creatures/vampire/" "View the Vampire page"
+    click Mermaid "/mermaids/creatures/mermaid/" "View the Mermaid page";
+    click Werewolf "/mermaids/creatures/werewolf/" "View the Werewolf page";
+    click Vampire "/mermaids/creatures/vampire/" "View the Vampire page";
 ```
 
 - [Mermaid](/mermaids/creatures/mermaid/) -- transform in the water for increased swim speed and underwater vision.

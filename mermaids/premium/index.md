@@ -52,20 +52,20 @@ Every race in every line also carries an **Innate Attribute Gain**, a small auto
 ##### Mermaid Race Line
 
 ```mermaid
-flowchart TD
-    Mermaid["Mermaid<br/>Base"]
-    Mermaid --> Princess["Mermaid Princess<br/>Tier 1 - Hybrid"]
-    Mermaid --> Tidebreaker["Mermaid Tidebreaker<br/>Tier 1 - Strength"]
-    Mermaid --> Tideweaver["Mermaid Tideweaver<br/>Tier 1 - Sorcery"]
+flowchart TD;
+    Mermaid["Mermaid<br/>Base"];
+    Mermaid --> Princess["Mermaid Princess<br/>Tier 1 - Hybrid"];
+    Mermaid --> Tidebreaker["Mermaid Tidebreaker<br/>Tier 1 - Strength"];
+    Mermaid --> Tideweaver["Mermaid Tideweaver<br/>Tier 1 - Sorcery"];
 
-    Princess --> CrownPrincess["Mermaid Crown Princess<br/>Tier 2 - Hybrid"]
-    Tidebreaker --> Abyssal["Mermaid Abyssal<br/>Tier 2 - Strength"]
-    Tideweaver --> Moonbinder["Mermaid Moonbinder<br/>Tier 2 - Sorcery"]
+    Princess --> CrownPrincess["Mermaid Crown Princess<br/>Tier 2 - Hybrid"];
+    Tidebreaker --> Abyssal["Mermaid Abyssal<br/>Tier 2 - Strength"];
+    Tideweaver --> Moonbinder["Mermaid Moonbinder<br/>Tier 2 - Sorcery"];
 
-    CrownPrincess --> Queen["Mermaid Queen<br/>Tier 3 - Hybrid"]
-    Abyssal --> Queen
-    Moonbinder --> Queen
-    Queen --> Empress["Mermaid Empress<br/>Final"]
+    CrownPrincess --> Queen["Mermaid Queen<br/>Tier 3 - Hybrid"];
+    Abyssal --> Queen;
+    Moonbinder --> Queen;
+    Queen --> Empress["Mermaid Empress<br/>Final"];
 ```
 
 | Race: | Stage: | Path: | Description: |
@@ -90,16 +90,16 @@ flowchart TD
 ##### Werewolf Race Line
 
 ```mermaid
-flowchart TD
-    Werewolf["Werewolf<br/>Base - Origin"]
-    Werewolf --> Packguard["Werewolf Packguard<br/>Tier 1 - Pack"]
-    Werewolf --> Ravager["Werewolf Ravager<br/>Tier 1 - Feral"]
+flowchart TD;
+    Werewolf["Werewolf<br/>Base - Origin"];
+    Werewolf --> Packguard["Werewolf Packguard<br/>Tier 1 - Pack"];
+    Werewolf --> Ravager["Werewolf Ravager<br/>Tier 1 - Feral"];
 
-    Packguard --> Alpha["Werewolf Alpha<br/>Tier 2 - Pack"]
-    Ravager --> Bloodmoon["Werewolf Bloodmoon<br/>Tier 2 - Feral"]
+    Packguard --> Alpha["Werewolf Alpha<br/>Tier 2 - Pack"];
+    Ravager --> Bloodmoon["Werewolf Bloodmoon<br/>Tier 2 - Feral"];
 
-    Alpha --> Direfang["Werewolf Direfang<br/>Final - Hybrid"]
-    Bloodmoon --> Direfang
+    Alpha --> Direfang["Werewolf Direfang<br/>Final - Hybrid"];
+    Bloodmoon --> Direfang;
 ```
 
 | Race: | Stage: | Path: | Description: |
@@ -125,16 +125,16 @@ flowchart TD
 ##### Vampire Race Line
 
 ```mermaid
-flowchart TD
-    Vampire["Vampire<br/>Base - Origin"]
-    Vampire --> Bloodfang["Vampire Bloodfang<br/>Tier 1 - Predator"]
-    Vampire --> Nightshade["Vampire Nightshade<br/>Tier 1 - Coven"]
+flowchart TD;
+    Vampire["Vampire<br/>Base - Origin"];
+    Vampire --> Bloodfang["Vampire Bloodfang<br/>Tier 1 - Predator"];
+    Vampire --> Nightshade["Vampire Nightshade<br/>Tier 1 - Coven"];
 
-    Bloodfang --> Countess["Vampire Countess<br/>Tier 2 - Predator"]
-    Nightshade --> Matriarch["Vampire Matriarch<br/>Tier 2 - Coven"]
+    Bloodfang --> Countess["Vampire Countess<br/>Tier 2 - Predator"];
+    Nightshade --> Matriarch["Vampire Matriarch<br/>Tier 2 - Coven"];
 
-    Countess --> Progenitor["Vampire Progenitor<br/>Final - Hybrid"]
-    Matriarch --> Progenitor
+    Countess --> Progenitor["Vampire Progenitor<br/>Final - Hybrid"];
+    Matriarch --> Progenitor;
 ```
 
 | Race: | Stage: | Path: | Description: |
