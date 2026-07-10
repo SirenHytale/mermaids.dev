@@ -10,7 +10,9 @@ nav_order: 2
 
 Now up to date for **Update Version 3**! Ever wanted to be a Mermaid? Now you can with Mermaids, this mod allows the player to transform into a Mermaid when entering the water! Which will give the player increased movement speed, water breathing, night vision, and more while swimming underwater throughout the seas, oceans, and rivers.
 
-As of Update Version 3, Mermaids has grown beyond just mermaids -- the mod now includes a full **Mythical Creatures** system, adding **Werewolves** and **Vampires** as playable transformations alongside Mermaids. Check out the [Mythical Creatures] page to learn about each one.
+As of Update Version 3, Mermaids has grown beyond just mermaids -- the mod now includes a full **Mythical Creatures** system, adding **Werewolves** and **Vampires** as playable transformations alongside Mermaids. Check out the [Mythical Creatures] page to learn about each one.\r
+\r
+Looking for even more customization and progression? Check out [Mermaids Premium], a supporter addon with extra Mermaid tail colors and full [Endless Leveling] race integration for every Mythical Creature.
 
 #### Features:
 
@@ -62,3 +64,5 @@ As of Update Version 3, Mermaids has grown beyond just mermaids -- the mod now i
 [Mermaid]: /mermaids/creatures/mermaid/
 [Werewolf]: /mermaids/creatures/werewolf/
 [Vampire]: /mermaids/creatures/vampire/
+[Mermaids Premium]: /mermaids/premium/
+[Endless Leveling]: https://www.curseforge.com/hytale/mods/endless-leveling

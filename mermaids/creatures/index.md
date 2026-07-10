@@ -23,7 +23,7 @@ A player can only be actively transformed into one Mythical Creature at a time. 
 
 #### Available Races
 
-- [Mermaid](/mermaids/races/mermaid/) -- transform in the water for increased swim speed and underwater vision.
-- [Werewolf](/mermaids/races/werewolf/) -- transform at night or during certain moon phases for a beastly form.
-- [Vampire](/mermaids/races/vampire/) -- transform into an undead creature of the night with its own cosmetic handling.
+- [Mermaid](/mermaids/creatures/mermaid/) -- transform in the water for increased swim speed and underwater vision.
+- [Werewolf](/mermaids/creatures/werewolf/) -- transform at night or during certain moon phases for a beastly form.
+- [Vampire](/mermaids/creatures/vampire/) -- transform into an undead creature of the night with its own cosmetic handling.
 
