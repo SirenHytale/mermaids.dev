@@ -19,8 +19,6 @@ nav_order: 1
     - [Chinese Festivals Docs]
 - [Siren's Commands]
     - [Siren's Commands Docs]
-- [Hytale Insights]
-  - [Hytale Insights Docs]
 
 <br/>
 
@@ -40,8 +38,6 @@ nav_order: 1
 [Siren's Commands Docs]: /sirens-commands/
 [Chinese Festivals]: /chinese-festivals/curseforge/
 [Chinese Festivals Docs]: /chinese-festivals/
-[Hytale Insights]: /hytale-insights/curseforge/
-[Hytale Insights Docs]: /hytale-insights/
 [Curseforge]: /curseforge/
 [Discord]: /discord/
 [YouTube]: /youtube/

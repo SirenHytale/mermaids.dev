@@ -3,7 +3,7 @@ title: About Siren
 description: About Siren, the creator of the Hytale mods--Mermaids, Marriage, and more
 layout: about
 permalink: /about-siren/
-nav_order: 8
+nav_order: 5
 ---
 
 ## About Siren
