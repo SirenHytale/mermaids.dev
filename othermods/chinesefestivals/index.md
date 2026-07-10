@@ -1,9 +1,10 @@
 ---
 title: Chinese Festivals
 description: Docs for the Hytale Chinese Festivals Mod
+parent: Other Mods
 layout: page
 permalink: /chinese-festivals/
-nav_order: 5
+nav_order: 3
 ---
 
 ### Welcome to the Official [Chinese Festivals] Mod Wiki!

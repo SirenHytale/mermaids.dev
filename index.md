@@ -34,8 +34,8 @@ nav_order: 1
 [Mermaids]: /mermaids/curseforge/
 [Mermaids Docs]: /mermaids/
 [Mermaids API Docs]: /api/
-[Marriage]: /marriage/curseforge/
-[Marriage Docs]: /marriage/
+[Marriage]: /othermods/marriage/curseforge/
+[Marriage Docs]: /othermods/marriage/
 [Siren's Commands]: /sirens-commands/curseforge/
 [Siren's Commands Docs]: /sirens-commands/
 [Chinese Festivals]: /chinese-festivals/curseforge/

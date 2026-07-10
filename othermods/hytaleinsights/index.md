@@ -1,9 +1,10 @@
 ---
 title: Hytale Insights
 description: Docs for the Hytale Insights Mod
+parent: Other Mods
 layout: page
 permalink: /hytale-insights/
-nav_order: 7
+nav_order: 4
 ---
 
 ### Welcome to the Official [Hytale Insights] Mod Wiki!

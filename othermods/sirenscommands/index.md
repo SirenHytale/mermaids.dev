@@ -1,9 +1,10 @@
 ---
 title: Siren's Commands
 description: Docs for the Hytale Siren's Commands Mod
+parent: Other Mods
 layout: page
 permalink: /sirens-commands/
-nav_order: 6
+nav_order: 2
 ---
 
 ### Welcome to the Official [Siren's Commands] Mod Wiki!

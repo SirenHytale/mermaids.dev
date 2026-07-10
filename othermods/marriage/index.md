@@ -1,9 +1,10 @@
 ---
 title: Marriage
 description: Docs for the Hytale Marriage Mod
+parent: Other Mods
 layout: page
 permalink: /marriage/
-nav_order: 4
+nav_order: 1
 ---
 
 ### Welcome to the Official [Marriage] Mod Wiki!
@@ -14,4 +15,4 @@ Ever wanted players to get Married? Now you can with Marriage, this plugin allow
 
 { IN DEVELOPMENT }
 
-[Marriage]: /marriage/curseforge/
+[Marriage]: /othermods/marriage/curseforge/
