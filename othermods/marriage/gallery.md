@@ -1,5 +1,5 @@
 ---
-title: Gallery
+title: Marriage Gallery
 description: Marriage Mod - Gallery
 parent: Marriage
 layout: page

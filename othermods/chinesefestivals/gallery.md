@@ -1,5 +1,5 @@
 ---
-title: Gallery
+title: Chinese Festivals Gallery
 description: Chinese Festivals Mod - Gallery
 parent: Chinese Festivals
 layout: page
