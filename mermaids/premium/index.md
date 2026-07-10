@@ -51,6 +51,23 @@ Every race in every line also carries an **Innate Attribute Gain**, a small auto
 
 ##### Mermaid Race Line
 
+```mermaid
+flowchart TD
+    Mermaid["Mermaid<br/>Base"]
+    Mermaid --> Princess["Mermaid Princess<br/>Tier 1 - Hybrid"]
+    Mermaid --> Tidebreaker["Mermaid Tidebreaker<br/>Tier 1 - Strength"]
+    Mermaid --> Tideweaver["Mermaid Tideweaver<br/>Tier 1 - Sorcery"]
+
+    Princess --> CrownPrincess["Mermaid Crown Princess<br/>Tier 2 - Hybrid"]
+    Tidebreaker --> Abyssal["Mermaid Abyssal<br/>Tier 2 - Strength"]
+    Tideweaver --> Moonbinder["Mermaid Moonbinder<br/>Tier 2 - Sorcery"]
+
+    CrownPrincess --> Queen["Mermaid Queen<br/>Tier 3 - Hybrid"]
+    Abyssal --> Queen
+    Moonbinder --> Queen
+    Queen --> Empress["Mermaid Empress<br/>Final"]
+```
+
 | Race: | Stage: | Path: | Description: |
 |:---|:---|:---|:---|
 | Mermaid | Base | -- | A mythical sea creature who has the tail of a fish. |
@@ -63,7 +80,7 @@ Every race in every line also carries an **Innate Attribute Gain**, a small auto
 | Mermaid Queen | Tier 3 | Hybrid | A mythical sea creature who rules a sea. |
 | Mermaid Empress | Final | Hybrid | The ultimate mythical sea creature who rules the seven seas. |
 
-**Mermaid Custom Passives:**
+**Mermaid Passives:**
 
 - **Tidal Affinity** -- Mermaids fight better in their element. Grants a combat bonus while transformed into a Mermaid, and a small penalty while untransformed on land.
 - **Mermaid Aura** -- Mermaids passively radiate a supporting aura around themselves, restoring a bit of mana and stamina to those nearby within its radius.
@@ -71,6 +88,19 @@ Every race in every line also carries an **Innate Attribute Gain**, a small auto
 - **Innate Attribute Gain** -- A automatic passive boost to Life Force just for being a Mermaid.
 
 ##### Werewolf Race Line
+
+```mermaid
+flowchart TD
+    Werewolf["Werewolf<br/>Base - Origin"]
+    Werewolf --> Packguard["Werewolf Packguard<br/>Tier 1 - Pack"]
+    Werewolf --> Ravager["Werewolf Ravager<br/>Tier 1 - Feral"]
+
+    Packguard --> Alpha["Werewolf Alpha<br/>Tier 2 - Pack"]
+    Ravager --> Bloodmoon["Werewolf Bloodmoon<br/>Tier 2 - Feral"]
+
+    Alpha --> Direfang["Werewolf Direfang<br/>Final - Hybrid"]
+    Bloodmoon --> Direfang
+```
 
 | Race: | Stage: | Path: | Description: |
 |:---|:---|:---|:---|
@@ -81,7 +111,7 @@ Every race in every line also carries an **Innate Attribute Gain**, a small auto
 | Werewolf Bloodmoon | Tier 2 | Feral | A ravening apex hunter whose rage swells with every drop of blood spilled, crippling prey beneath its claws. |
 | Werewolf Direfang | Final | Hybrid | The undisputed alpha of alphas, a dire lycan whose unstoppable rage and iron hide make it a one-beast war party. |
 
-**Werewolf Custom Passives:**
+**Werewolf Passives:**
 
 - **Moonlight** -- Werewolves draw strength from the night, gaining a damage and haste bonus.
 - **Health Regen** -- Steady passive health regeneration.
@@ -94,6 +124,19 @@ Every race in every line also carries an **Innate Attribute Gain**, a small auto
 
 ##### Vampire Race Line
 
+```mermaid
+flowchart TD
+    Vampire["Vampire<br/>Base - Origin"]
+    Vampire --> Bloodfang["Vampire Bloodfang<br/>Tier 1 - Predator"]
+    Vampire --> Nightshade["Vampire Nightshade<br/>Tier 1 - Coven"]
+
+    Bloodfang --> Countess["Vampire Countess<br/>Tier 2 - Predator"]
+    Nightshade --> Matriarch["Vampire Matriarch<br/>Tier 2 - Coven"]
+
+    Countess --> Progenitor["Vampire Progenitor<br/>Final - Hybrid"]
+    Matriarch --> Progenitor
+```
+
 | Race: | Stage: | Path: | Description: |
 |:---|:---|:---|:---|
 | Vampire | Base | Origin | Undying predators who feed on the blood of the living, Vampires trade a fragile constitution for supernatural speed, ferocity, and the ability to steal life with every strike. |
@@ -103,7 +146,7 @@ Every race in every line also carries an **Innate Attribute Gain**, a small auto
 | Vampire Matriarch | Tier 2 | Coven | A commanding blood sorceress who shields herself in stolen vitality while her coven's magic deepens. |
 | Vampire Progenitor | Final | Hybrid | The undying first blood, a sovereign vampire who fuses predatory savagery with mastery of blood sorcery into a single, unstoppable hunger. |
 
-**Vampire Custom Passives:**
+**Vampire Passives:**
 
 - **Moonlight** -- Like Werewolves, Vampires are creatures of the night and gain a damage and haste bonus from it.
 - **Life Steal** -- Heals the Vampire for a portion of the damage it deals, true to its blood-drinking nature.

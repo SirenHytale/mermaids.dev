@@ -21,7 +21,19 @@ Each creature has its own:
 
 A player can only be actively transformed into one Mythical Creature at a time. Transforming into a new creature (for example, drinking a Vampire potion while already transformed into a Werewolf) will cleanly swap the player out of their previous creature model first.
 
-#### Available Races
+#### Available Mythical Creatures
+
+```mermaid
+flowchart TD
+    Player["Player"]
+    Player --> Mermaid["Mermaid<br/>Transforms in water"]
+    Player --> Werewolf["Werewolf<br/>Transforms at night / moon phase"]
+    Player --> Vampire["Vampire<br/>Transforms via potion or at night"]
+
+    click Mermaid "/mermaids/creatures/mermaid/" "View the Mermaid page"
+    click Werewolf "/mermaids/creatures/werewolf/" "View the Werewolf page"
+    click Vampire "/mermaids/creatures/vampire/" "View the Vampire page"
+```
 
 - [Mermaid](/mermaids/creatures/mermaid/) -- transform in the water for increased swim speed and underwater vision.
 - [Werewolf](/mermaids/creatures/werewolf/) -- transform at night or during certain moon phases for a beastly form.
