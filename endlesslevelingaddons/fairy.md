@@ -55,7 +55,6 @@ Fairy Race adds two brand new, exclusive passive types to Endless Leveling, alon
 
 - **Winged** -- Increases the Fairy's jump force, giving it a noticeably higher hop than other races. While crouching in mid-air, a Fairy also gets a boosted drag coefficient, turning a crouch-fall into a slow, controlled glide instead of a normal drop.
 - **Featherfall** -- Reduces fall damage taken by a flat percentage, letting Fairies shrug off landings that would hurt other races. This stacks on top of the slow-fall glide from Winged, so higher-tier Fairies can survive drops that would otherwise be lethal.
-- **Innate Attribute Gain** -- An automatic passive boost to Life Force just for being a Fairy, scaling up with each ascension tier.
 
 Both Winged and Featherfall get stronger at each tier -- a base Fairy has a noticeably weaker glide and fall protection than a Fae Sovereign, so the race gets more agile the further it's leveled.
 
