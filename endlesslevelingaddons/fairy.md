@@ -4,7 +4,7 @@ description: Endless Leveling Addons - Fairy Race
 parent: Endless Leveling Addons
 layout: page
 permalink: /endless-leveling/fairy/
-nav_order: 1
+nav_order: 3
 ---
 
 ### Fairy Race
