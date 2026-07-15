@@ -65,6 +65,18 @@ All three get stronger at each tier -- a base Elf has a modest dodge chance and 
 
 <br/>
 
+#### Commands
+
+| Command: | Description: |
+|:---|:---|
+| /rangerseye | Toggle your Ranger's Eye danger-sense notifications on or off. Usable by any player, no permission required. |
+
+<br/>
+
+* * *
+
+<br/>
+
 #### Race Attributes
 
 | Race: | Life Force: | Strength: | Defense: | Haste: | Precision: | Ferocity: | Stamina: | Flow: | Sorcery: | Discipline: |

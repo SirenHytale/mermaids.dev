@@ -64,6 +64,18 @@ Both Stonesense and Deep Roots get stronger at each tier -- a base Gnome has a s
 
 <br/>
 
+#### Commands
+
+| Command: | Description: |
+|:---|:---|
+| /stonesense | Toggle your Stonesense ore-sense notifications on or off. Usable by any player, no permission required. |
+
+<br/>
+
+* * *
+
+<br/>
+
 #### Race Attributes
 
 | Race: | Life Force: | Strength: | Defense: | Haste: | Precision: | Ferocity: | Stamina: | Flow: | Sorcery: | Discipline: |
