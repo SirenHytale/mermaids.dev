@@ -3,7 +3,7 @@ title: Endless Leveling Addons
 description: Endless Leveling Addons by Siren.
 layout: page
 permalink: /endless-leveling/
-nav_order: 4
+nav_order: 5
 ---
 
 ### My Addons to the [Endless Leveling] Hytale Mod

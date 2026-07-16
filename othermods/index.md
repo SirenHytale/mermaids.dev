@@ -3,7 +3,7 @@ title: Other Mods
 description: Docs to view all Hytale mods from Siren.
 layout: page
 permalink: /mods/
-nav_order: 5
+nav_order: 6
 ---
 
 ### My Official Released Mods
