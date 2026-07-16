@@ -23,7 +23,7 @@ Ever wanted to walk the path of a Xianxia cultivator? Now you can with **Cultiva
 - Every number in the mod lives in a themed config file - nothing is hardcoded.
 - Fully localized: English, Portuguese (Brazil), Russian, Ukrainian, and Simplified Chinese, with proper Xianxia terminology throughout.
 
-[<span style="color: #c2e0f4;"><img src="https://api.hstats.dev/api/embed/21672df1-3212-4267-be2f-e43679e6e66b/card.svg?theme=dark&amp;layout=history&amp;size=lg&amp;show_id=true&amp;dark=false" alt="HStats Cultivation Mod with History Img" width="920" height="340"></span>](/cultivation/hstats/)
+[<span style="color: #c2e0f4;"><img src="https://api.hstats.dev/api/embed/828f65ac-8c45-4510-893b-cc90cd9734aa/card.svg?theme=dark&amp;layout=history&amp;size=lg&amp;show_id=true&amp;dark=false" alt="HStats Cultivation Mod with History Img" width="920" height="340"></span>](/cultivation/hstats/)
 
 * * *
 
