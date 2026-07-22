@@ -11,7 +11,7 @@ nav_order: 3
 
 > Blessed with a heavenly constitution. Sturdy and swift to break through, though less fierce in a fight.
 
-Deity is a survivability- and progression-focused choice, unlocked once a player reaches Golden Core Formation. It grants the largest health bonus of the three built-in races and speeds up realm breakthroughs, at the cost of some outgoing damage.
+Deity is a survivability- and progression-focused choice, unlocked once you reach Golden Core Formation. It grants the largest health bonus of the three built-in races and speeds up every ritual, at the cost of some outgoing damage.
 
 #### Bonuses
 
@@ -21,8 +21,11 @@ Deity is a survivability- and progression-focused choice, unlocked once a player
 | Max Health | +20% |
 | Outgoing Damage | -10% |
 | Qi Gain Rate | +5% |
-| Breakthrough Duration | -20% (breakthroughs take 20% less time) |
+| Breakthrough Duration | -20% (rituals take 20% less time) |
+| Qi Alignment Yin Bias | -30% |
 
-Breakthrough duration reductions are clamped in code so they can never cut a ritual's length by more than 90%, no matter how high a race's bonus is configured.
+The duration reduction applies to sub-stage advancements and [weapon refinement](/cultivation/refinement/) as well as realm breakthroughs, and stacks multiplicatively with the skill tree's Ritual Speed and an active Clarity Pill. Reductions are clamped in code so no combination can cut a ritual by more than 90%.
 
-See the [Races](/cultivation/races/) overview for how these bonuses compare to Human and Demon, and [Config](/cultivation/config/) for how to retune them on your own server.
+The -30% Yin bias purifies nearly a third of the Yin a Deity would otherwise absorb into Yang, so a Deity drifts toward a deep Yang lean over time - the Yang lean powers (incoming-damage reduction and stronger received healing) and, past the path threshold, the **Righteous Path (正道)**. See [The Dao](/cultivation/dao/).
+
+See the [Races](/cultivation/races/) overview for how these compare to Human and Demon, and [Config](/cultivation/config/race/) for how to retune them on your own server.
