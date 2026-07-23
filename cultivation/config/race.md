@@ -1,7 +1,7 @@
 ---
 title: Race Configs
 description: Cultivation Mod - Race Configs
-parent: Config
+parent: Main Config
 layout: page
 permalink: /cultivation/config/race/
 nav_order: 5

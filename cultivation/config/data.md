@@ -1,7 +1,7 @@
 ---
 title: Data Files
 description: Cultivation Mod - Data Files
-parent: Config
+parent: Main Config
 layout: page
 permalink: /cultivation/config/data/
 nav_order: 6

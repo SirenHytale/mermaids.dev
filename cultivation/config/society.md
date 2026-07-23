@@ -1,7 +1,7 @@
 ---
 title: Society Configs
 description: Cultivation Mod - Society Configs
-parent: Config
+parent: Main Config
 layout: page
 permalink: /cultivation/config/society/
 nav_order: 4

@@ -1,7 +1,7 @@
 ---
 title: Core Config
 description: Cultivation Mod - Core Config
-parent: Config
+parent: Main Config
 layout: page
 permalink: /cultivation/config/core/
 nav_order: 1

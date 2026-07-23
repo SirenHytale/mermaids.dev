@@ -1,6 +1,6 @@
 ---
-title: Config
-description: Cultivation Mod - Config
+title: Main Config
+description: Cultivation Mod - Main Config
 parent: Cultivation
 layout: page
 permalink: /cultivation/config/

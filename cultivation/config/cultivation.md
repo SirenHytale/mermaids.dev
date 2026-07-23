@@ -1,7 +1,7 @@
 ---
 title: Cultivation Configs
 description: Cultivation Mod - Cultivation Configs
-parent: Config
+parent: Main Config
 layout: page
 permalink: /cultivation/config/cultivation/
 nav_order: 2

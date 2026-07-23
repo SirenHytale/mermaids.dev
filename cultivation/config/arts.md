@@ -1,7 +1,7 @@
 ---
 title: Arts Configs
 description: Cultivation Mod - Arts Configs
-parent: Config
+parent: Main Config
 layout: page
 permalink: /cultivation/config/arts/
 nav_order: 3
