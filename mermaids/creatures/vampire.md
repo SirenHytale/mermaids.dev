@@ -29,4 +29,4 @@ Vampire transformations are primarily potion-driven:
 
 Open the Vampire menu at any time with `/vampire` (or `/vamp`), or through `/mermaids vampire`.
 
-[Werewolf]: /mermaids/races/werewolf/
+[Werewolf]: /mermaids/creatures/werewolf/

@@ -7,7 +7,9 @@ permalink: /mermaids/config/
 nav_order: 2
 ---
 
-This page covers every config file the Mermaids mod generates, updated for **Mermaids Update Version 3**. Every file lives under `mods/Siren_Mermaids/` and each one carries its own `ConfigVersion`, which increases automatically whenever that file's layout changes -- your existing settings are migrated for you, you never need to edit `ConfigVersion` by hand.
+This page covers every config file the Mermaids mod generates, updated for **Mermaids Update Version 3.1**. Every file lives under `mods/Siren_Mermaids/` and each one carries its own `ConfigVersion`, which increases automatically whenever that file's layout changes -- your existing settings are migrated for you, you never need to edit `ConfigVersion` by hand.
+
+> **New in 3.1.0:** the [Drying Out](#drying-out) options in the Mermaids Config, plus two new files for the [Cultivation](#mermaids-cultivation-config) compatibility and its [Merfolk race](#cultivation-merfolk-race-config). New options are appended to your existing files automatically the first time you launch 3.1.0 -- nothing you have already set is changed.
 
 #### Default Config
 This is the default config values and descriptions for the Default Config, config version 1,
@@ -61,8 +63,32 @@ found in the path `mods/Siren_Mermaids/MermaidsConfig.json`. This file only cont
 | "Mermaid-Gives-Fullbright" | false | Whether being transformed into a Mermaid grants fullbright vision underwater. |
 | "Mermaid-Have-A-Glow/Light" | true | The mermaid model will light of a glow allowing the player to see better underwater. |
 | "Mermaid-Glow/Light-Radius" | 33 | The radius of the mermaid glow. |
+| "Enable-Drying-Out" | false | New in 3.1.0. Mermaids slowly dry out while on land -- see [Drying Out](#drying-out) below. Off by default. |
+| "Description-Enable-Drying-Out" | A long string explaining what drying out does. | A description of the Enable-Drying-Out config option. |
+| "Drying-Out-Only-While-Transformed" | false | Only drain the meter while the player is actually transformed with a tail. See [Drying Out](#drying-out) for why the default is false. |
+| "Description-Drying-Out-Only-While-Transformed" | A long string explaining both settings of this option. | A description of the Drying-Out-Only-While-Transformed config option. |
+| "Drying-Out-Seconds-To-Empty" | 60 | Seconds on land to drain the meter from full to empty. |
+| "Description-Drying-Out-Seconds-To-Empty" | A long string comparing this to vanilla drowning. | A description of the Drying-Out-Seconds-To-Empty config option. |
+| "Drying-Out-Seconds-To-Refill" | 3 | Seconds in contact with water to refill the meter from empty to full. Set to 0 to refill instantly. |
+| "Drying-Out-Damage" | 10 | Damage dealt each interval once the meter is empty. Set to 0 to make drying out harmless -- meter and HUD only, no damage. |
+| "Drying-Out-Damage-Interval-Seconds" | 1 | Seconds between each point of drying out damage while the meter is empty. |
+| "Description-Drying-Out-Damage" | A long string explaining the damage and its damage cause. | A description of the Drying-Out-Damage config option. |
 | "EasyHunger-By:Haasapenas-Compatibility" | true | Compatibility with the [EasyHunger](https://www.curseforge.com/hytale/mods/easyhunger) Mod, see [Compatibilities](/mermaids/compatibilities/) page for more info. |
 | "AquaThirst&Hunger-By:Jume-Compatibility" | true | Compatibility with the [Aqua Thirst & Hunger](https://www.curseforge.com/hytale/mods/aqua-thirst-hunger) Mod, see [Compatibilities](/mermaids/compatibilities/) page for more info. |
+
+<br/>
+
+##### Drying Out
+
+New in 3.1.0, and **off by default** -- turning it on changes how a mermaid server plays, so it is opt-in.
+
+With `"Enable-Drying-Out"` set to `true`, a mermaid standing on land slowly dries out. A meter appears above the hotbar and drains like the vanilla breath bar; once it empties, the player takes `Drying-Out-Damage` every `Drying-Out-Damage-Interval-Seconds` under the mod's own `Mermaids_DryingOut` damage cause. **This can kill.** Any contact with water refills the meter, and the HUD disappears once the player is safe again.
+
+A few things worth knowing before enabling it:
+
+- **`Drying-Out-Only-While-Transformed` is `false` for a reason.** Mermaids revert to their human model moments after leaving water, so setting this to `true` means the meter almost never gets the chance to drain -- unless you also run `"Always-A-Mermaid-Even-On-Land"`. Leave it `false` unless you know you want the narrower behavior.
+- **Keep `Drying-Out-Seconds-To-Empty` above ~17 seconds.** That is roughly how long vanilla drowning takes to empty, and drying out is meant to be the slower, more forgiving of the two.
+- **Set `Drying-Out-Damage` to `0`** if you want the meter purely as flavor. The bar and HUD still work, they just never hurt anyone.
 
 <br/>
 
@@ -71,7 +97,7 @@ found in the path `mods/Siren_Mermaids/MermaidsConfig.json`. This file only cont
 <br/>
 
 #### Werewolf Config
-New in Update Version 3, see the [Werewolf](/mermaids/races/werewolf/) race page for more info.
+New in Update Version 3, see the [Werewolf](/mermaids/creatures/werewolf/) race page for more info.
 This is the default config values and descriptions for the Werewolf Config, config version 1,
 found in the path `mods/Siren_Mermaids/WerewolfConfig.json`.
 
@@ -95,7 +121,7 @@ found in the path `mods/Siren_Mermaids/WerewolfConfig.json`.
 <br/>
 
 #### Vampire Config
-New in Update Version 3, see the [Vampire](/mermaids/races/vampire/) race page for more info.
+New in Update Version 3, see the [Vampire](/mermaids/creatures/vampire/) race page for more info.
 This is the default config values and descriptions for the Vampire Config, config version 1,
 found in the path `mods/Siren_Mermaids/VampireConfig.json`.
 
@@ -174,3 +200,64 @@ found in the path `mods/Siren_Mermaids/Compatibility/EndlessLeveling.json`.
 | "Default-Mermaids-Content" | false | Toggle the Mermaids mod content. If false, you can only transform into a Mermaid as one of the mermaid races. |
 | "Description-Default-Mermaids-Content" | A description of what the "Default-Mermaids-Content" does. | A description of what another variable does. |
 | "Mermaid-Only-In-Water" | true | When the player is a mermaid race, they will only have a Mermaid tail while in water. |
+
+<br/>
+
+* * *
+
+<br/>
+
+#### Mermaids Cultivation Config
+New in 3.1.0, see the [Cultivation Addon](/mermaids/compatibilities/cultivation/) page for more info.
+This is the default config values and descriptions for the Mermaids Cultivation config, config version 1,
+found in the path `mods/Siren_Mermaids/Compatibility/Cultivation.json`.
+
+> Requires the [Cultivation](https://www.curseforge.com/hytale/mods/cultivation) mod, version **0.5.0 or newer**. Without it this file is still generated, but nothing in it does anything.
+
+| Variable Name: | Default Value: | Description: |
+|:---|:---|:---|
+| "Config-Name" | "Cultivation Compatibility" | The name given to this config file. |
+| "Config-Description" | "This config file allows the user to modify compatibility issues with the Cultivation mod." | Description of what this config can modify. |
+| "Config-Information" | A long string that tells you to come to this site. | Information about how to find stuff related to the config. |
+| "ConfigVersion" | 1 | Current Version when you have loaded for the plugin. |
+| "Enable-Cultivation-Compatibility" | true | Toggle for the Mermaids mod to add a brand new Merfolk race to Cultivation. Its stats live in the [Merfolk race config](#cultivation-merfolk-race-config) below. |
+| "Description-Enable-Cultivation-Compatibility" | A description of what the "Enable-Cultivation-Compatibility" does. | A description of what another variable does. |
+| "Default-Mermaids-Content" | false | Toggle the Mermaids mod content. If false, all Mermaid transformations depend on the player being the Cultivation Merfolk race. |
+| "Description-Default-Mermaids-Content" | A description of what the "Default-Mermaids-Content" does. | A description of what another variable does. |
+| "Mermaid-Only-In-Water" | true | When the player is the Merfolk race, they will only have a Mermaid tail while in water. |
+| "Race-Lock-Ignore-Potions" | false | Only applies while "Default-Mermaids-Content" is false. When true, Mermaid potions and pendants no longer transform non-Merfolk players -- only the Merfolk race can transform at all. When false, potions and pendants still work as a temporary transformation for anyone. |
+| "Description-Race-Lock-Ignore-Potions" | A description of what the "Race-Lock-Ignore-Potions" does. | A description of what another variable does. |
+| "Ignore-DoNotChange-Detected-Cultivation-Before" | false | Ignore this value; the mod uses it to remember that it has already detected the Cultivation mod once. |
+
+<br/>
+
+* * *
+
+<br/>
+
+#### Cultivation Merfolk Race Config
+New in 3.1.0, see the [Cultivation Addon](/mermaids/compatibilities/cultivation/) page for more info.
+This is the default config values and descriptions for the Merfolk race the Mermaids mod registers into Cultivation, config version 1,
+found in the path `mods/Siren_Mermaids/Compatibility/CultivationRaces/merfolk.json`.
+
+These are the same stat knobs Cultivation's own `Race/*.json` files use, so a Merfolk cultivator can be balanced against the mod's built-in races directly.
+
+| Variable Name: | Default Value: | Description: |
+|:---|:---|:---|
+| "Config-Name" | "Cultivation Merfolk Race" | The name given to this config file. |
+| "Config-Description" | "This config file tunes the Merfolk race the Mermaids mod registers into the Cultivation mod." | Description of what this config can modify. |
+| "Config-Information" | A long string that tells you to come to this site. | Information about how to find stuff related to the config. |
+| "ConfigVersion" | 1 | Current Version when you have loaded for the plugin. |
+| "ID" | "Siren:Merfolk" | The internal race id Cultivation stores on the player. |
+| "Description-ID" | A long string warning about changing the ID. | Warns that changing the ID after players have already picked Merfolk resets them back to Human, so only change it on a fresh world. |
+| "Display-Name" | "Merfolk" | The race name shown in Cultivation's race menu. |
+| "Display-Name-Translation-Key" | "server.races.merfolk.name" | The translation key used for the display name, so the race name localizes. |
+| "Description" | "Born of the tide. Their bodies remember the sea, and the Water Dao answers them readily." | The race description shown in Cultivation's race menu. |
+| "Unlock-Realm" | "BodyRefinement" | The Cultivation realm a player must reach before Merfolk can be chosen. Accepts BodyRefinement, QiCondensation, FoundationEstablishment, GoldenCoreFormation, NascentSoul, SoulFormation, VoidRefinement, or a 1-based realm number. An unrecognized value logs a warning and falls back to Body Refinement. |
+| "Description-Unlock-Realm" | A long string listing the accepted realm values. | A description of the Unlock-Realm config option. |
+| "Health-Bonus-Percent" | 5 | Percent bonus to the Merfolk cultivator's maximum health. |
+| "Damage-Bonus-Percent" | -5 | Percent change to damage dealt. Negative by default -- Merfolk trade raw force for Qi affinity. |
+| "Qi-Gain-Rate-Percent-Bonus" | 15 | Percent bonus to the rate Qi is absorbed while meditating. |
+| "Breakthrough-Duration-Percent-Reduction" | 5 | Percent reduction to how long a breakthrough ritual takes. |
+| "Qi-Alignment-Yin-Bias-Percent" | 20 | Percent Yin bias applied to absorbed Qi. Positive because water is a Yin element, so Merfolk Qi darkens slightly. |
+| "Description-Stats" | A long string explaining the stat knobs and the Yin bias. | A description of the five stat options above. |

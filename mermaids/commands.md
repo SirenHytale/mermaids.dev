@@ -36,6 +36,9 @@ nav_order: 1
 | /mermaids admin endlessleveling                              | The Endless Leveling Compatibility command line. Will only be visiable when enabled with the Endless Leveling mod.                         | mermaids.admin.endlessleveling                 |
 | /mermaids admin endlessleveling mermaidscontent [true/false] | Toggle to allow regular Mermaids content. If false, you can only transform into a Mermaid as a mermaid race.                               | mermaids.admin.endlessleveling.mermaidscontent |
 | /mermaids admin endlessleveling onlyinwater [true/false]     | As a mermaid race, you will only have a Mermaid tail while in water.                                                                       | mermaids.admin.endlessleveling.onlyinwater     |
+| /mermaids admin cultivation OR /mermaids admin cult          | New in 3.1.0. The Cultivation Compatibility command line. Will only be visiable when enabled with the Cultivation mod. | mermaids.admin.cultivation                     |
+| /mermaids admin cultivation mermaidscontent [true/false]     | Toggle to allow regular Mermaids content. If false, you can only transform into a Mermaid as the Merfolk race.         | mermaids.admin.cultivation.mermaidscontent     |
+| /mermaids admin cultivation onlyinwater [true/false]         | As the Merfolk race, you will only have a Mermaid tail while in water.                                                 | mermaids.admin.cultivation.onlyinwater         |
 
 <br/>
 
@@ -44,7 +47,7 @@ nav_order: 1
 <br/>
 
 #### Werewolf Commands
-New in Update Version 3, see the [Werewolf](/mermaids/races/werewolf/) race page for more info.
+New in Update Version 3, see the [Werewolf](/mermaids/creatures/werewolf/) race page for more info.
 
 | Command:                                 | Description:                                                                         | Permission:     |
 |:------------------------------------------|:---------------------------------------------------------------------------------------|:----------------|
@@ -60,7 +63,7 @@ New in Update Version 3, see the [Werewolf](/mermaids/races/werewolf/) race page
 <br/>
 
 #### Vampire Commands
-New in Update Version 3, see the [Vampire](/mermaids/races/vampire/) race page for more info.
+New in Update Version 3, see the [Vampire](/mermaids/creatures/vampire/) race page for more info.
 
 | Command:                                 | Description:                                                                         | Permission:     |
 |:------------------------------------------|:---------------------------------------------------------------------------------------|:----------------|

@@ -8,7 +8,7 @@ nav_order: 2
 
 ### Welcome to the Official [Mermaids and Mythical Creatures] Mod Wiki!
 
-Now up to date for **Update Version 3**! Ever wanted to be a Mermaid? Now you can with Mermaids, this mod allows the player to transform into a Mermaid when entering the water! Which will give the player increased movement speed, water breathing, night vision, and more while swimming underwater throughout the seas, oceans, and rivers.
+Now up to date for **Update Version 3.1**! Ever wanted to be a Mermaid? Now you can with Mermaids, this mod allows the player to transform into a Mermaid when entering the water! Which will give the player increased movement speed, water breathing, night vision, and more while swimming underwater throughout the seas, oceans, and rivers.
 
 As of Update Version 3, Mermaids has grown beyond just mermaids -- the mod now includes a full **Mythical Creatures** system, adding **Werewolves** and **Vampires** as playable transformations alongside Mermaids. Check out the [Mythical Creatures] page to learn about each one.\r
 \r
@@ -23,6 +23,8 @@ Looking for even more customization and progression? Check out [Mermaids Premium
 - Breathe underwater with increased swim speed.
 - Custom Mermaid NPCs that spawn in the ocean.
 - Move slower on land as a mermaid.
+- Optionally dry out on land, with its own meter, HUD, and damage -- new in 3.1.0, off by default.
+- Play as the [Merfolk] race in the [Cultivation] mod -- new in 3.1.0.
 - Werewolves transform based on the time of day and moon phase.
 - Vampires hide incompatible armor cosmetics while transformed.
 - Configurable transformation options for every creature.
@@ -66,3 +68,5 @@ Looking for even more customization and progression? Check out [Mermaids Premium
 [Vampire]: /mermaids/creatures/vampire/
 [Mermaids Premium]: /mermaids/premium/
 [Endless Leveling]: https://www.curseforge.com/hytale/mods/endless-leveling
+[Merfolk]: /mermaids/compatibilities/cultivation/
+[Cultivation]: /cultivation/

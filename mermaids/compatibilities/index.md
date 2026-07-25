@@ -28,6 +28,9 @@ nav_order: 6
   - How to enable compatibility can be [found here](/mermaids/compatibilities/endless-leveling/).
 - [Angler's Almanac] By: [RM20Dev]
   - Allows the player to be able to catch a Mermaid Scale in the ocean.
+- [Cultivation] By: [Siren]
+  - Adds a custom Merfolk race to Cultivation, with its own realm gate and Qi stats.
+  - How to enable compatibility can be [found here](/mermaids/compatibilities/cultivation/).
 
 [EasyHunger]: https://www.curseforge.com/hytale/mods/easyhunger
 [Haasapenas]: https://www.curseforge.com/members/haasapenas/projects
@@ -48,3 +51,5 @@ nav_order: 6
 [Airijko]: https://www.curseforge.com/members/airijko/projects
 [Angler's Almanac]: https://www.curseforge.com/hytale/mods/anglers-almanac
 [RM20Dev]: https://www.curseforge.com/members/rm20dev/projects
+[Cultivation]: /cultivation/
+[Siren]: /about-siren/

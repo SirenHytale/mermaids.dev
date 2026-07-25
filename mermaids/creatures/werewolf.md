@@ -31,4 +31,4 @@ By default, transformation follows the configured day/night and moon phase rules
 
 Open the Werewolf menu at any time with `/werewolf` (or `/were`), or through `/mermaids werewolf`.
 
-[Vampire]: /mermaids/races/vampire/
+[Vampire]: /mermaids/creatures/vampire/

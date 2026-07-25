@@ -22,6 +22,15 @@ The Mermaid is the original transformation of the Mermaids mod, and it's still t
 - Some blocks (like mud or a cauldron) and rain can optionally trigger a transformation, if enabled by a server admin.
 - Certain items, such as harpoons from compatible mods, can grant an additional swim speed boost while transformed.
 - Spawns custom Mermaid NPCs in the ocean that the player can encounter while exploring.
+- Can optionally **dry out** on land, draining a meter that eventually deals damage until the player gets back to water. New in 3.1.0 and off by default.
+
+#### Drying Out
+
+New in 3.1.0. A mermaid out of water is a fish out of water -- if a server admin enables it.
+
+With drying out turned on, standing on land drains a meter shown above the hotbar, the mirror image of the vanilla breath bar underwater. Once it empties the player starts taking damage every second until they find water again, and touching any water refills the meter. It can kill, so it is **off by default**; an admin can also set the damage to zero and keep it as pure flavor.
+
+Everything about it is tunable -- how long it takes to dry out, how fast water refills it, how much it hurts, and whether it only applies while actually transformed. See the [Drying Out](/mermaids/config/#drying-out) section of the config page.
 
 #### How to become a Mermaid
 

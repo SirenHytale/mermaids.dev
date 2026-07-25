@@ -29,6 +29,9 @@ nav_order: 3
 | mermaids.admin.endlessleveling                 | Allows the player to use the command /mermaids admin endlessleveling command line.                                         |
 | mermaids.admin.endlessleveling.mermaidscontent | Allows the player to use the command /mermaids admin endlessleveling mermaidscontent [true/false].                         |
 | mermaids.admin.endlessleveling.onlyinwater     | Allows the player to use the command /mermaids admin endlessleveling onlyinwater [true/false].                             |
+| mermaids.admin.cultivation                     | New in 3.1.0. Allows the player to use the command /mermaids admin cultivation command line.                              |
+| mermaids.admin.cultivation.mermaidscontent     | Allows the player to use the command /mermaids admin cultivation mermaidscontent [true/false].                            |
+| mermaids.admin.cultivation.onlyinwater         | Allows the player to use the command /mermaids admin cultivation onlyinwater [true/false].                                |
 
 <br/>
 
