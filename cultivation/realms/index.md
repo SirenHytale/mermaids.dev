@@ -77,6 +77,40 @@ All four numbers behind the formulas -- `Breakthrough-Base-Seconds`, `Breakthrou
 
 <br/>
 
+##### How much Qi the chunk needs
+
+Separately from your own banked Qi, the chunk you sit down in must have a [Spirit Vein](/cultivation/qi-gathering/) holding at least this much Qi for the ritual to make progress:
+
+| Ritual: | Chunk Qi needed: | Config key: |
+|:---|:---|:---|
+| Sub-stage advancement | **200** | `Advancement-Min-Chunk-Qi` |
+| Realm breakthrough | **750** | `Breakthrough-Min-Chunk-Qi` |
+| [Weapon refinement](/cultivation/refinement/) | 40 | `Refinement-Min-Chunk-Qi` |
+
+Unlike the durations, these are **flat**. A Void Refinement breakthrough needs exactly the same 750 as a Body Refinement one -- the ritual gets longer as you climb, but never pickier about where you sit.
+
+Only the chunk you are actually sitting in is tested. The drain radius that lets ordinary meditation pull from neighbouring chunks does not apply here.
+
+##### Which veins can host a breakthrough
+
+This matters more than the number suggests, because a vein's ceiling is fixed when its chunk is first generated -- it regenerates back up to whatever it originally rolled, and never past it:
+
+| Vein Tier: | Odds: | Pool: | Advancement (200)? | Breakthrough (750)? |
+|:---|:---|:---|:---|:---|
+| Normal | 96.7% | 150 - 500 Qi | Only if it rolled 200+ | **Never** |
+| Rich | 3% | 1200 - 2600 Qi | Always | **Always** |
+| Dragon | 0.3% | 3500 - 5500 Qi | Always | **Always** |
+
+So a **realm breakthrough can only be performed on a rich or dragon vein** -- roughly **one chunk in 30**. A normal vein tops out at 500 Qi and can never reach the bar, no matter how long you wait for it to regenerate. Finding a good vein is not an optimization, it is a requirement, and it is why the mod announces a rich or dragon vein in chat the first time you sit on one.
+
+Advancements are far more forgiving: any normal vein that rolled 200 or better will do, which is about 86% of them. The unlucky bottom stretch of the normal range (150 - 199) can host neither ritual.
+
+> **The ritual does not drain the vein.** While an advancement or breakthrough is running, meditation feeds the ritual instead of absorbing Qi, so the vein is left completely untouched -- a chunk that qualifies when you sit down still qualifies when you stand up. The check exists so that rituals happen in spiritually rich places, not to consume them.
+
+Both thresholds live in `Cultivation/BreakthroughConfig.json`; the vein pools themselves are in `Cultivation/SpiritVeinConfig.json`. Use `/cultivation debug vein` to read the current and max Qi of the vein under your feet before committing to a ritual.
+
+<br/>
+
 * * *
 
 <br/>

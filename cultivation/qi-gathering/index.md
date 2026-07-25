@@ -38,6 +38,8 @@ Every chunk holds its own **Spirit Vein** - a per-chunk pool of ambient Qi that 
 
 The dragon roll happens first, then the rich roll, then the normal range. Sitting down on a rich or dragon vein tells you so in chat, once per tier discovered - finding a good spot to cultivate is a real thing to go looking for.
 
+> **A realm breakthrough needs a rich or dragon vein.** The chunk must hold 750 Qi for a breakthrough ritual to progress, and a normal vein tops out at 500 - so those two tiers, about one chunk in 30, are the only places a breakthrough can happen at all. See [How much Qi the chunk needs](/cultivation/realms/#how-much-qi-the-chunk-needs).
+
 - A vein regenerates 1.5 Qi/second (`Spirit-Vein-Regen-Per-Second`) and drains 2.75 Qi/second (`Spirit-Vein-Drain-Per-Second`) while someone meditates on it. The tier regen multipliers apply on top of the regen figure, and are deliberately tuned to stay below the drain rate - if you retune them, keep `regen x multiplier` under `Spirit-Vein-Drain-Per-Second` or the vein becomes an infinite Qi source.
 - If the chunk you're in runs low, meditation also draws from neighboring chunks - `Spirit-Vein-Drain-Radius-Chunks` (default 1) means a 3x3 area, widened by one more ring per tier-8 Vein Drain Radius capstone in the [skill tree](/cultivation/skilltree/).
 - Use `/cultivation debug vein` to check the current and max Qi of the vein under your feet.

@@ -115,6 +115,7 @@ heading_anchors: true
 aux_links:
   Curseforge: /curseforge/
   Mermaids and Mythical Creatures Download: /mermaids/curseforge/ # https://www.curseforge.com/hytale/mods/mermaids/files/all?page=1&pageSize=20&showAlphaFiles=show
+  Cultivation Download: /cultivation/curseforge/
   Discord: /discord/
 
 # Makes Aux links open in a new tab. Default is false
