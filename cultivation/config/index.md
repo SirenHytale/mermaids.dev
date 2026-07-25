@@ -9,11 +9,13 @@ nav_order: 2
 
 ### Config
 
-Everything the Cultivation mod can be tuned with lives under `mods/Siren_Cultivation/`, updated here for **Cultivation v0.4.1**. Rather than one enormous file, the settings are split into themed files and grouped into folders - the progression core in `Cultivation/`, everything a cultivator practices in `Arts/`, everything that only matters because other cultivators exist in `Society/`, one file per playable race in `Race/`, and the server's own runtime save state in `Data/`.
+Everything the Cultivation mod can be tuned with lives under `mods/Siren_Cultivation/`, updated here for **Cultivation v0.5.0**. Rather than one enormous file, the settings are split into themed files and grouped into folders - the progression core in `Cultivation/`, everything a cultivator practices in `Arts/`, everything that only matters because other cultivators exist in `Society/`, one file per playable race in `Race/`, and the server's own runtime save state in `Data/`.
 
 Every settings file carries its own `ConfigName` and `ConfigVersion`. The version increases automatically whenever that file's layout or balance changes, and your existing settings are migrated for you - you never need to edit `ConfigVersion` by hand, and setting it backwards only causes the migration to run again. Files also contain `Description-*` string fields, which are documentation rather than settings: the mod rewrites them to their current text on load, so editing one does nothing.
 
 Every value on these pages can also be changed live, in game, with `/cultivation admin` instead of touching JSON at all. See the [Commands] and [Permissions] pages for how to reach it.
+
+As of 0.5.0, other mods can add **their own** sections to that editor, appearing beside Cultivation's own nine on the Config tab and in an admin-only block of the settings menu. Anything you see there that is not documented on these pages belongs to another mod - see [API Addons](/cultivation/api/addons/).
 
 <br/>
 

@@ -44,7 +44,36 @@ Both are real, timed meditation rituals. Bank enough [Qi](/cultivation/qi-gather
 
 **Failure costs you.** Cancelling a ritual - by drifting away from where you sat down, or by standing up manually - demotes you one sub-stage, wipes your banked Qi, and revokes the skill points that stage originally granted. You are never demoted below Early-Stage of your current realm, so a failed breakthrough can never cost you a whole realm.
 
-Ritual duration is multiplied by every speed bonus you carry, stacking multiplicatively: a [race](/cultivation/races/) `Breakthrough-Duration-Percent-Reduction` (Deity has one), the [skill tree's](/cultivation/skilltree/) Harmony branch (Ritual Speed %), and an active [Clarity Pill](/cultivation/alchemy/). Both the race and skill-tree multipliers are clamped in code so neither can cut a ritual by more than 90%.
+<br/>
+
+##### How long each ritual takes
+
+Both timers scale off the realm you are currently **in**, so a ritual gets slower every realm you climb. The exact formulas are:
+
+```
+breakthrough seconds = 24 x 1.35 ^ realmIndex
+advancement  seconds =  8 x 1.30 ^ realmIndex
+```
+
+where `realmIndex` counts from 0 at Body Refinement. With the default config that works out to:
+
+| Realm: | Each advancement: | Breakthrough out of it: |
+|:---|:---|:---|
+| Body Refinement | 8.0s | 24.0s -> Qi Condensation |
+| Qi Condensation | 10.4s | 32.4s -> Foundation Establishment |
+| Foundation Establishment | 13.5s | 43.7s -> Golden Core Formation |
+| Golden Core Formation | 17.6s | 59.0s -> Nascent Soul |
+| Nascent Soul | 22.8s | 1m 20s -> Soul Formation |
+| Soul Formation | 29.7s | 1m 48s -> Void Refinement |
+| Void Refinement | 38.6s | -- highest realm, no breakthrough |
+
+There are **three advancements per realm** (Early -> Middle -> Late -> Peak), then the breakthrough out of Peak. Adding it all up, climbing from a brand-new Body Refinement cultivator to Void Refinement is about **5m 47s** of breakthrough rituals and **5m 6s** of advancement rituals -- call it **11 minutes** of sitting still, total.
+
+That is only the ritual timer. It is not how long the climb takes: the real cost is banking the [Qi](/cultivation/qi-gathering/) each step needs, and that curve grows far faster than these timers do.
+
+Ritual duration is multiplied by every speed bonus you carry, stacking multiplicatively: a [race](/cultivation/races/) `Breakthrough-Duration-Percent-Reduction` (Deity's -20% takes that last breakthrough from 1m 48s to about 1m 26s), the [skill tree's](/cultivation/skilltree/) Harmony branch (Ritual Speed %), and an active [Clarity Pill](/cultivation/alchemy/). Both the race and skill-tree multipliers are clamped in code so neither can cut a ritual by more than 90%.
+
+All four numbers behind the formulas -- `Breakthrough-Base-Seconds`, `Breakthrough-Duration-Realm-Multiplier`, `Advancement-Base-Seconds` and `Advancement-Duration-Realm-Multiplier` -- live in `Cultivation/BreakthroughConfig.json` and can be retuned live with `/cultivation admin`.
 
 <br/>
 

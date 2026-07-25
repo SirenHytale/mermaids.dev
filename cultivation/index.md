@@ -10,7 +10,7 @@ nav_order: 4
 
 Ever wanted to walk the path of a Xianxia cultivator? Now you can with **Cultivation**, a full Xianxia-style progression system for your server. Meditate to draw ambient Spirit Qi from the world around you, hunt creatures for cultivation cores, climb seven realms of power on your way toward immortality, survive the heavenly tribulation that answers every breakthrough, master an element of the Dao, found a sect, and take a rival's mountain by siege.
 
-These docs cover **Cultivation v0.4.1**.
+These docs cover **Cultivation v0.5.0**.
 
 #### Features:
 
@@ -28,6 +28,7 @@ These docs cover **Cultivation v0.4.1**.
 - Persistent, toggleable HUD, and a live in-game admin config editor - retune the entire mod without ever opening a JSON file.
 - Every number in the mod lives in a themed [config](/cultivation/config/) file - nothing is hardcoded.
 - A public [Cultivation API](/cultivation/api/) with roughly 135 events, so other mods can watch, veto, or re-tune almost anything Cultivation does.
+- New in 0.5.0: another mod can [replace the realm ladder entirely](/cultivation/api/addons/) - its own levels, rank names and vocabulary - while sects, daos, techniques, beasts, formations, abodes and the skill tree all keep working on top of it.
 - Localized in English and Simplified Chinese with proper Xianxia terminology throughout, plus partial translations for Portuguese (Brazil), Russian, and Ukrainian.
 
 [<span style="color: #c2e0f4;"><img src="https://api.hstats.dev/api/embed/828f65ac-8c45-4510-893b-cc90cd9734aa/card.svg?theme=dark&amp;layout=history&amp;size=lg&amp;show_id=true&amp;dark=false" alt="HStats Cultivation Mod with History Img" width="920" height="340"></span>](/cultivation/hstats/)

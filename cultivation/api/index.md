@@ -11,13 +11,14 @@ nav_order: 22
 
 Cultivation ships a public integration surface for other Hytale mods: `plugin.siren.API.CultivationAPI` plus ten `*Events` classes in the same package. It is the intended stable shape of the mod - prefer it over reaching into `CultivationManager`, `Cultivation` or the ECS components directly, since those are free to change between versions.
 
-There are three things you can do with it:
+There are four things you can do with it:
 
 - **Read** a player's cultivation state - realm, stage, global level, banked Qi, race, meditation state, skill points, unlocked nodes. See the [API Reference](/cultivation/api/reference/).
 - **Register** new content that behaves exactly like the built-in content - a race, a technique, a Qi absorption item modifier. See [API Registries](/cultivation/api/registries/).
 - **Listen** to (and re-tune, or veto) roughly 135 events across every subsystem in the mod. See [API Events](/cultivation/api/events/).
+- **Replace** a whole layer of the mod - the progression ladder itself, its entire vocabulary, or both - while every other subsystem keeps running on top. New in 0.5.0; see [API Addons](/cultivation/api/addons/).
 
-This page documents the API as of Cultivation **0.4.1**.
+This page documents the API as of Cultivation **0.5.0**.
 
 <br/>
 
@@ -34,7 +35,7 @@ Maven `pom.xml`:
     <dependency>
         <groupId>plugin.siren</groupId>
         <artifactId>Cultivation</artifactId>
-        <version>0.4.1</version>
+        <version>0.5.0</version>
         <scope>provided</scope>
         <optional>true</optional>
     </dependency>
@@ -45,7 +46,7 @@ Then declare it in your Hytale `manifest.json`. Cultivation's own manifest publi
 
 ```json5
 "OptionalDependencies": {
-  "Siren:Cultivation": ">=0.4.1"
+  "Siren:Cultivation": ">=0.5.0"
 }
 ```
 
@@ -134,6 +135,7 @@ Call `MyCultivationHooks.register()` from your plugin's `setup()`. There is deli
 | [API Events](/cultivation/api/events/) | Every event in the ten `*Events` classes, what it exposes, and what cancelling one does. |
 | [API Registries](/cultivation/api/registries/) | `registerRace`, `registerTechnique`, `newTechniqueRule` and `registerQiAbsorptionItemModifier`. |
 | [API Reference](/cultivation/api/reference/) | The component-type getters and the state reads on the `CultivationAPI` facade. |
+| [API Addons](/cultivation/api/addons/) | `ProgressionProvider`, `CultivationTheme` and `AdminConfigSection` - replacing the ladder, the wording, and adding your own admin settings. |
 
 Player-facing documentation for the systems these hooks sit on top of lives on the main wiki: [Cultivation Realms], [Qi Gathering], [The Dao], [Techniques], [Sects], [Sect Wars], [Formations], [Cave Abodes], [Duels] and [Spirit Beasts]. Every number an event lets you re-tune also has a server-owner-facing equivalent on the [Config] page, and most of them mirror something on the [Commands] page.
 
