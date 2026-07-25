@@ -1,9 +1,10 @@
 ---
 title: Cultivation
 description: Docs for the Hytale Cultivation Mod - a Xianxia realm-and-Qi leveling system
-layout: page
+layout: redirect
 permalink: /cultivation/
 nav_order: 4
+redirect_to: https://xianxia.dev/
 ---
 
 ### Welcome to the Official [Cultivation] Mod Wiki!
