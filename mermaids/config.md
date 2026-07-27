@@ -7,9 +7,30 @@ permalink: /mermaids/config/
 nav_order: 2
 ---
 
-This page covers every config file the Mermaids mod generates, updated for **Mermaids Update Version 3.1**. Every file lives under `mods/Siren_Mermaids/` and each one carries its own `ConfigVersion`, which increases automatically whenever that file's layout changes -- your existing settings are migrated for you, you never need to edit `ConfigVersion` by hand.
+This page covers every config file the Mermaids mod generates, updated for **Mermaids Update Version 3.2**. Every file lives under `mods/Siren_Mermaids/` and each one carries its own `ConfigVersion`, which increases automatically whenever that file's layout changes -- your existing settings are migrated for you, you never need to edit `ConfigVersion` by hand.
+
+> **New in 3.2.0:** you no longer have to edit these files by hand at all -- see the [in-game Server Configuration menu](#in-game-server-configuration-menu) below. The Mermaids Config also gains [Tail-Color-Permissions](#tail-color-permissions), and the [Drying Out](#drying-out) damage defaults were **lowered** -- see that section for exactly when your existing values are and aren't touched.
 
 > **New in 3.1.0:** the [Drying Out](#drying-out) options in the Mermaids Config, plus two new files for the [Cultivation](#mermaids-cultivation-config) compatibility and its [Merfolk race](#cultivation-merfolk-race-config). New options are appended to your existing files automatically the first time you launch 3.1.0 -- nothing you have already set is changed.
+
+<br/>
+
+* * *
+
+<br/>
+
+#### In-Game Server Configuration Menu
+
+New in 3.2.0. Everything on this page can now be edited **from inside the game**, without opening a file or restarting the server.
+
+Open the [Mythical Creatures menu](/mermaids/commands/) and pick **Server Configuration**. The card only appears for players holding the `mermaids.admin.config` [permission](/mermaids/permissions).
+
+- Changes are **pending until you press Save.** The menu shows a running count of unsaved changes, and a **Revert** button discards them.
+- Settings are grouped into sections: **Mermaid**, **Drying Out**, **Appearance**, **Creatures**, **Werewolf**, **Vampire**, **Zones** and **Hunger Mods**.
+- Compatibility sections for [Cultivation](#mermaids-cultivation-config), [Endless Leveling](#mermaids-endless-leveling-config) and [Orbis Origins](#mermaids-orbis-origins-config) **only appear when that mod is actually installed**.
+- Saving writes straight to the same JSON files documented below, so the two ways of configuring the mod never disagree.
+
+The files remain fully supported -- edit them directly if you prefer, or if you are provisioning a server before first launch.
 
 #### Default Config
 This is the default config values and descriptions for the Default Config, config version 1,
@@ -42,7 +63,7 @@ found in the path `mods/Siren_Mermaids/Config.json`. This file controls settings
 <br/>
 
 #### Mermaids Config
-This is the default config values and descriptions for the Mermaids Config, config version 20,
+This is the default config values and descriptions for the Mermaids Config, config version 21,
 found in the path `mods/Siren_Mermaids/MermaidsConfig.json`. This file only controls Mermaid-specific settings.
 
 > Older installs will have this data inside `Config.json` instead -- the mod automatically copies it over to `MermaidsConfig.json` the first time you launch Update Version 3.
@@ -51,7 +72,7 @@ found in the path `mods/Siren_Mermaids/MermaidsConfig.json`. This file only cont
 |:---|:---|:---|
 | "ConfigName" | "Mermaids Mythical Creature Config" | The name given to this config file. |
 | "Config-Information" | A long string that tells you to come to this site. | Information about how to find stuff related to the config. |
-| "ConfigVersion" | 20 | Current Version when you have loaded for the plugin. |
+| "ConfigVersion" | 21 | Current Version when you have loaded for the plugin. |
 | "Transformation-Mode" | 0 | TransformationMode = 0: Transform when entering water, TransformationMode = 1: Requires the user to drink a Mermaid Potion or have a Mermaid Pendant to transform into a Mermaid. |
 | "Description-Transformation-Mode" | A long string that tells you about the description for Transformation-Mode. | A description of the Transformation-Mode config option. |
 | "Always-A-Mermaid-Even-On-Land" | false | If you have permissions to be a Mermaid, then you'll always be transformed into a Mermaid even on land. |
@@ -70,9 +91,11 @@ found in the path `mods/Siren_Mermaids/MermaidsConfig.json`. This file only cont
 | "Drying-Out-Seconds-To-Empty" | 60 | Seconds on land to drain the meter from full to empty. |
 | "Description-Drying-Out-Seconds-To-Empty" | A long string comparing this to vanilla drowning. | A description of the Drying-Out-Seconds-To-Empty config option. |
 | "Drying-Out-Seconds-To-Refill" | 3 | Seconds in contact with water to refill the meter from empty to full. Set to 0 to refill instantly. |
-| "Drying-Out-Damage" | 10 | Damage dealt each interval once the meter is empty. Set to 0 to make drying out harmless -- meter and HUD only, no damage. |
-| "Drying-Out-Damage-Interval-Seconds" | 1 | Seconds between each point of drying out damage while the meter is empty. |
+| "Drying-Out-Damage" | 4 | **Lowered in 3.2.0** (was 10). Damage dealt each interval once the meter is empty. Set to 0 to make drying out harmless -- meter and HUD only, no damage. |
+| "Drying-Out-Damage-Interval-Seconds" | 3 | **Raised in 3.2.0** (was 1). Seconds between each point of drying out damage while the meter is empty. |
 | "Description-Drying-Out-Damage" | A long string explaining the damage and its damage cause. | A description of the Drying-Out-Damage config option. |
+| "Tail-Color-Permissions" | false | New in 3.2.0. When true, each tail color requires its own permission -- see [Tail Color Permissions](/mermaids/permissions#tail-color-permissions). Off by default, so every color stays available to everyone. |
+| "Description-Tail-Color-Permissions" | A long string explaining the permission nodes and wildcards. | A description of the Tail-Color-Permissions config option. |
 | "EasyHunger-By:Haasapenas-Compatibility" | true | Compatibility with the [EasyHunger](https://www.curseforge.com/hytale/mods/easyhunger) Mod, see [Compatibilities](/mermaids/compatibilities/) page for more info. |
 | "AquaThirst&Hunger-By:Jume-Compatibility" | true | Compatibility with the [Aqua Thirst & Hunger](https://www.curseforge.com/hytale/mods/aqua-thirst-hunger) Mod, see [Compatibilities](/mermaids/compatibilities/) page for more info. |
 
@@ -83,6 +106,15 @@ found in the path `mods/Siren_Mermaids/MermaidsConfig.json`. This file only cont
 New in 3.1.0, and **off by default** -- turning it on changes how a mermaid server plays, so it is opt-in.
 
 With `"Enable-Drying-Out"` set to `true`, a mermaid standing on land slowly dries out. A meter appears above the hotbar and drains like the vanilla breath bar; once it empties, the player takes `Drying-Out-Damage` every `Drying-Out-Damage-Interval-Seconds` under the mod's own `Mermaids_DryingOut` damage cause. **This can kill.** Any contact with water refills the meter, and the HUD disappears once the player is safe again.
+
+> **Rebalanced in 3.2.0.** The damage default dropped from **10 every 1 second** to **4 every 3 seconds**. The old rate could kill a full-health player in about ten seconds, which was often faster than the trip to the nearest lake -- drying out is meant to push a mermaid back toward water, not execute them.
+>
+> **Your existing values decide what happens on update.** If your `Drying-Out-Damage` and `Drying-Out-Damage-Interval-Seconds` are still sitting at the old defaults of `10` and `1`, they are retuned to `4` and `3` for you. If you changed either one, **your number is kept exactly as it is** -- a server that deliberately tuned this keeps its balance.
+
+**What does not dry you out** (both new in 3.2.0):
+
+- **Rain.** Standing in a downpour counts as being wet and keeps the meter full. This applies even when `"Rain-Can-Cause-Transformations"` is `false` -- rain not *transforming* you on this server does not mean rain fails to *wet* you.
+- **Creative mode.** Creative players are exempt entirely; the meter and HUD switch off. Building should not be interrupted by a survival meter, and being chipped to death by damage you are immune to anyway would only be confusing. Switching to creative **resets** the meter rather than pausing it, so coming back to survival starts you from full instead of resuming a stale drain that could kill instantly.
 
 A few things worth knowing before enabling it:
 

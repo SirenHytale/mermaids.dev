@@ -11,11 +11,13 @@ nav_order: 8
 
 **Mermaids Premium** is a separate, optional paid addon jar that sits on top of the base Mermaids and Mythical Creatures mod, adding extra cosmetic and progression content for supporters. It requires the base Mermaids mod to be installed, and unlocks additional integration if the [Endless Leveling](https://www.curseforge.com/hytale/mods/endless-leveling) mod is also present.
 
+> **Premium 1.2.0 requires Mermaids 3.2.0 or newer.** It relies on the color registration and permission features added in that release, so update the base mod first.
+
 To unlock Mermaids Premium, you can support the mod on [Patreon] at any tier. Once you have a valid Patreon account, you can download the Mermaids Premium jar from any of the latest posts on my Patreon page and place it in your `mods` folder alongside the base Mermaids mod.
 
 #### What it adds
 
-- Dozens of additional Mermaid tail colors, on top of the base mod's default colors.
+- **215 additional Mermaid tail colors**, on top of the base mod's 8, shown right inside the normal Mermaid menu.
 - Full [Endless Leveling] race trees for the Mermaid, Werewolf, and Vampire, each with their own custom passives.
 - Deeper hooks into Endless Leveling's ascension/prestige system, so your Mythical Creature choice actually feeds into your character build.
 
@@ -27,17 +29,31 @@ To unlock Mermaids Premium, you can support the mod on [Patreon] at any tier. On
 
 #### Custom Mermaid Tail Colors
 
-The base Mermaids mod ships with a handful of tail colors. Mermaids Premium unlocks a much larger cosmetic wardrobe, letting players pick their tail color from several themed texture sets:
+The base Mermaids mod ships with 8 tail colors. Mermaids Premium adds **215 more**, for **223 in total**, drawn from all thirteen of the game's own gradient sets:
 
-| Color Set: | Colors Included: | Count: |
-|:---|:---|:---|
-| Classic | Orange, Pink, Purple, Rose, Lime, Blue, Aqua, Cyan | 8 |
-| Shiny Fabric | Red, Orange, Yellow, Lime, Green, Turquoise, Blue, Purple, Violet, Pink, Brown, White, Grey, Black | 14 |
-| Fantasy Cotton | Red, Orange, Yellow, Lime, Green, Turquoise, Blue, Purple, Pink, Beige, Brown, White, Black | 13 |
-| Jean | Pastel Blue, Blue, Dark Turquoise, Marine Blue, Gray Blue, Night Blue, Maroon, Light Gray, Dark Gray, Black | 10 |
-| Faded Leather | Red, Orange, Orange Tan, Yellow, Lime, Green, Turquoise, Blue, Dark Blue, Purple, Violet, Brown, Dark Brown, Pink, White, Gray, Black | 17 |
+| Color Family: | Count: |
+|:---|:---|
+| Skin | 47 |
+| Hair | 30 |
+| Eyes | 18 |
+| Faded Leather | 17 |
+| Colored Cotton | 15 |
+| Pastel Cotton | 15 |
+| Flashy Synthetic | 15 |
+| Shiny Fabric | 14 |
+| Fantasy Cotton | 13 |
+| Fantasy Cotton Dark | 12 |
+| Jean | 10 |
+| Ornamented Metal | 6 |
+| Rotten Fabric | 3 |
 
-That's over 60 tail color options total, selectable right from the Mermaid menu's color category once Mermaids Premium is installed, with no extra config needed.
+Every one is the same tail texture recolored by a gradient, which is how this many variants exist without this many pieces of artwork.
+
+> **Changed in Premium 1.2.0:** Premium used to open **its own separate customization page**, because there was no way for an add-on to add a color to the base mod's menu. Mermaids 3.2.0 added that ability, so the duplicate page is gone -- Premium's colors now appear **in the normal Mermaid menu**, sorted into one captioned section per family. There is one mermaid menu for everyone now, whether or not Premium is installed.
+>
+> Your existing tail color is unaffected; this changes where colors are chosen, not what you are wearing.
+
+If the server has [Tail Color Permissions](/mermaids/permissions#tail-color-permissions) switched on, Premium's colors use nodes derived from their own ids, such as `mermaids.color.shinyfabric.red`. A whole family can be granted with `mermaids.color.shinyfabric.*`. That setting is off by default, so Premium colors are available to every player unless a server owner deliberately gates them.
 
 <br/>
 
@@ -60,6 +76,8 @@ Every race in every line also carries an **Innate Attribute Gain**, a small auto
 #### Custom Passives
 
 Mermaids Premium introduces three brand new passive types into Endless Leveling, built specifically for the Mythical Creatures system. These are shared across whichever races make use of them, rather than being one-off effects:
+
+> **Fixed in Premium 1.2.0:** these three passives previously displayed under the wrong name in the Endless Leveling race menu, because Endless Leveling's passive list is a fixed set that add-ons cannot extend. All 21 races now carry a proper display name, so **Tidal Affinity**, **Mermaid Aura** and **Moonlight** read correctly in the menu.
 
 - **Tidal Affinity** -- A Mermaid-only passive that ties combat strength to being in the water. It grants a bonus while the player is transformed into a Mermaid, and applies a small penalty while the player is untransformed on land, encouraging Mermaids to fight from the water rather than the shore.
 - **Mermaid Aura** -- A supportive passive unique to the Mermaid line. While transformed, the Mermaid passively radiates an aura around themselves out to a set radius, restoring a portion of mana and stamina to anyone standing nearby -- turning a Mermaid into a bit of a support unit for their group.
