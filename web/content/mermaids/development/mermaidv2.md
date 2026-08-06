@@ -1,0 +1,101 @@
+---
+title: Mermaid v2 Tail Model
+description: Mermaids and Mythical Creatures Mod - Mermaid v2 Tail Model
+parent: Development
+layout: page
+permalink: /mermaids/dev/mermaidv2/
+nav_order: 2
+---
+
+## Animations
+- [X] Idle
+- [ ] Walk
+- [ ] WalkBackward
+- [ ] Run
+- [ ] RunBackward
+- [ ] Sprint
+- [ ] Crouch
+- [ ] CrouchWalk
+- [ ] CrouchWalkBackward
+- [ ] CrouchSlide
+- [ ] SafetyRoll
+- [ ] Jump
+- [ ] JumpCrouch
+- [ ] JumpWalk
+- [ ] JumpRun
+- [ ] JumpSprint
+- [ ] StepWalk
+- [ ] StepRun
+- [ ] StepSprint
+- [ ] StepCrouchWalk
+- [ ] Fall
+- [ ] GlideIdle
+- [ ] Glide
+- [ ] GlideBackward
+- [ ] GlideFast
+- [ ] FlyIdle
+- [ ] Fly
+- [ ] FlyBackward
+- [ ] FlyFast
+- [ ] FlyCrouchIdle
+- [ ] FlyCrouch
+- [ ] FlyCrouchBackward
+- [X] SwimIdle
+- [X] Swim
+- [X] SwimBackward
+- [X] SwimFast
+- [ ] SwimJump
+- [X] SwimFloat
+- [X] SwimSink
+- [X] SwimDive
+- [X] SwimDiveBackward
+- [X] SwimDiveFast
+- [X] FluidIdle
+- [X] FluidWalk
+- [X] FluidWalkBackward
+- [X] FluidRun
+- [X] FluidRunBackward
+- [X] FluidSprint
+- [ ] ClimbIdle
+- [ ] ClimbUp
+- [ ] ClimbDown
+- [ ] ClimbLeft
+- [ ] ClimbRight
+- [ ] MantleIdle
+- [ ] MantleUp
+- [ ] MantleLeft
+- [ ] MantleRight
+- [ ] DashForward
+- [ ] DashBackward
+- [ ] DashLeft
+- [ ] DashRight
+- [ ] Roll
+- [ ] RollBackward
+- [ ] RollLeft
+- [ ] RollRight
+- [ ] Hurt
+- [ ] Death
+- [ ] HurtFall
+- [ ] DeathFall
+- [ ] HurtFly
+- [ ] DeathFly
+- [ ] DeathFlyImpact
+- [ ] HurtDrown
+- [ ] DeathDrown
+- [ ] HurtBurn
+- [X] Sleep
+- [X] Sleep2
+- [X] Sit
+- [X] Sit2
+- [X] SitGround
+- [ ] Slide
+- [ ] IdlePassive
+- [ ] FlyIdlePassive
+- [ ] SwimIdlePassive
+- [ ] FluidIdlePassive
+- [ ] MountIdle
+- [ ] MountWalk
+- [ ] MountWalkBackward
+- [ ] MountRun
+- [ ] MountRunBackward
+- [ ] MountSprint

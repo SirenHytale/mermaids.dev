@@ -1,0 +1,73 @@
+---
+title: Commands
+description: Mermaids and Mythical Creatures Mod - Commands
+parent: Mermaids and Mythical Creatures
+layout: page
+permalink: /mermaids/commands/
+nav_order: 1
+---
+
+| Command:                                                     | Description:                                                                                                                               | Permission:                                    |
+|:-------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------|
+| /mer, /mermaid, OR /mermaids                                 | Opens the Mermaids mod menu and accesses the Mermaids mod command line.                                                                    | mermaids (Should be given to everyone)         |
+| /mermaids info                                               | Get information on the Mermaids mod installed on the server.                                                                               |                                                |
+| /mermaids toggle [true/false]                                | You can enable or disable Mermaid transformations.                                                                                         | mermaids.toggle                                |
+| /mermaids glow [true/false]                                  | Toggle to have only your mermaid model to glow.                                                                                            | mermaids.glow                                  |
+| /mermaids air                                                | Allows a player as a Mermaid to share air with nearby players.                                                                             |                                                |
+| /mermaids permpotionremove                                   | Will remove the permanent potion transformation from the player.                                                                           |                                                |
+| /mermaids bug                                                | Mermaids bug command line.                                                                                                                 |                                                |
+| /mermaids bug log                                            | Get an information log about possible bug issues that could occur with the Mermaids mod.                                                   |                                                |
+| /mermaids bug compfix                                        | Command to make sure the player has all of the Mermaids mod components.                                                                    |                                                |
+| /mermaids debug                                              | Mermaids debug command line.                                                                                                               | mermaids.debug                                 |
+| /mermaids debug givemermaidring                              | Give the player a testing item called the Mermaid Ring.                                                                                    | mermaids.debug.mermaidring                     |
+| /mermaids admin                                              | Mermaids admin command line.                                                                                                               | mermaids.admin                                 |
+| /mermaids admin reload                                       | Reload all of the Mermaids configs.                                                                                                        | mermaids.admin.reload                          |
+| /mermaids admin transformmode [New Mode Integer]             | Update the transformation mode with 0 to allow transforming when entering water and 1 to only allow transformation from drinking a potion. | mermaids.admin.mode                            |
+| /mermaids admin defaultmermaid [true/false]                  | Toggles to modify the default mermaid toggle setting on players when they first join the server.                                           | mermaids.admin.defaultmermaid                  |
+| /mermaids admin mermaidonland [true/false]                   | Toggle mermaid on land for all players.                                                                                                    | mermaids.admin.mermaidonland                   |
+| /mermaids admin landspeeddebuff [true/false]                 | Toggle if the player will have a speed debuff as a mermaid on land.                                                                        | mermaids.admin.mermaidonland                   |
+| /mermaids admin blockstransformation [true/false]            | Toggle to allow some blocks to transform players into a mermaid.                                                                           | mermaids.admin.blocktransform                  |
+| /mermaids admin raintransformation [true/false]              | Toggle to allow rain to transform players into a mermaid.                                                                                  | mermaids.admin.raintransform                   |
+| /mermaids admin mermaidglow [true/false]                     | Toggle to have the mermaid model glow.                                                                                                     | mermaids.admin.mermaidglow                     |
+| /mermaids admin mermaidglowradius [New Radius Integer]       | Set the radius of the mermaid glow.                                                                                                        | mermaids.admin.mermaidglow                     |
+| /mermaids admin orbisorigins                                 | The Orbis Origins Compatibility command line. Will only be visiable when enabled with Orbis Origins mod.                                   | mermaids.admin.orbisorigins                    |
+| /mermaids admin orbisorigins mermaidscontent [true/false]    | Toggle to allow regular Mermaids content. If false, you can only transform into a Mermaid as a mermaid species.                            | mermaids.admin.orbisorigins.mermaidscontent    |
+| /mermaids admin orbisorigins onlyinwater [true/false]        | As a mermaid species, you will only have a Mermaid tail while in water.                                                                    | mermaids.admin.orbisorigins.onlyinwater        |
+| /mermaids admin endlessleveling                              | The Endless Leveling Compatibility command line. Will only be visiable when enabled with the Endless Leveling mod.                         | mermaids.admin.endlessleveling                 |
+| /mermaids admin endlessleveling mermaidscontent [true/false] | Toggle to allow regular Mermaids content. If false, you can only transform into a Mermaid as a mermaid race.                               | mermaids.admin.endlessleveling.mermaidscontent |
+| /mermaids admin endlessleveling onlyinwater [true/false]     | As a mermaid race, you will only have a Mermaid tail while in water.                                                                       | mermaids.admin.endlessleveling.onlyinwater     |
+| /mermaids admin cultivation OR /mermaids admin cult          | New in 3.1.0. The Cultivation Compatibility command line. Will only be visiable when enabled with the Cultivation mod. | mermaids.admin.cultivation                     |
+| /mermaids admin cultivation mermaidscontent [true/false]     | Toggle to allow regular Mermaids content. If false, you can only transform into a Mermaid as the Merfolk race.         | mermaids.admin.cultivation.mermaidscontent     |
+| /mermaids admin cultivation onlyinwater [true/false]         | As the Merfolk race, you will only have a Mermaid tail while in water.                                                 | mermaids.admin.cultivation.onlyinwater         |
+
+<br/>
+
+* * *
+
+<br/>
+
+#### Werewolf Commands
+New in Update Version 3, see the [Werewolf](/mermaids/creatures/werewolf/) race page for more info.
+
+| Command:                                 | Description:                                                                         | Permission:     |
+|:------------------------------------------|:---------------------------------------------------------------------------------------|:----------------|
+| /werewolf OR /were                        | Opens the Werewolf mod menu.                                                           | mermaids        |
+| /mermaids werewolf                        | Opens the Werewolf mod menu, alias accessed through the main Mermaids command line.     | mermaids        |
+| /mermaids werewolf toggle [true/false]    | You can enable or disable Werewolf transformations for yourself.                       | mermaids.toggle |
+| /mermaids werewolf admin                  | Werewolf admin command line.                                                           | mermaids.admin  |
+
+<br/>
+
+* * *
+
+<br/>
+
+#### Vampire Commands
+New in Update Version 3, see the [Vampire](/mermaids/creatures/vampire/) race page for more info.
+
+| Command:                                 | Description:                                                                         | Permission:     |
+|:------------------------------------------|:---------------------------------------------------------------------------------------|:----------------|
+| /vampire OR /vamp                         | Opens the Vampire mod menu.                                                            | mermaids        |
+| /mermaids vampire                         | Opens the Vampire mod menu, alias accessed through the main Mermaids command line.      | mermaids        |
+| /mermaids vampire toggle [true/false]     | You can enable or disable Vampire transformations for yourself.                        | mermaids.toggle |
+| /mermaids vampire admin                   | Vampire admin command line.                                                            | mermaids.admin  |
